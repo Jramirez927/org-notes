@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d07a757c-6373-47f6-be28-8131b57f35e8
+:END:
+#+title: Emacs
+
+Emacs is an all in one text editor
+* https://orgmode.org/guide/index.html#SEC_Contents

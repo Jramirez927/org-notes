@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d0818d36-eb70-4d11-aebb-1cd09a5ee6ce
+:END:
+#+title: Health
+
+This is the index of my personal health information from anything related to my doctors appointments to workouts and activities for health.
+
+* General Health
+* Dentist
+* Therapy
+* Workouts

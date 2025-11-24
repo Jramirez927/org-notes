@@ -1,0 +1,45 @@
+
+* 2025
+** 2025-11 November
+*** 2025-11-24 Monday
+**** [2025-11-24 Mon 13:10] Went to get a haircut earlier passed by LIDL and Safeway for grocery items began watching new anime GACHIAKUTA
+- main characters Rudo and Chiwa
+**** [ ] Make bread
+**** [ ] Check unempoyment status
+*** 2025-11-20 Thursday
+**** Tasks [4/4]
+- [X] decide on a dish to make
+- [X] add items to grocery list
+- [X] [[https://www.tiktok.com/@dontgobaconmyheart_/video/7370037309917449504?q=dinner%20ideas&t=1763611952497][Creamy Chicken and Chorizo]]
+  - [X] view video link and create a recipe in notes
+- [X] [[https://www.tiktok.com/@dianabishara_/video/7242382039327018246?q=dinner%20ideas&t=1763611952497][Roasted Garlic and Parmesan Chicken]]
+  - [X] also create a recipe based on this video n
+**** Resource to learn math online [[https://www.ixl.com/math][ixl.com]]
+**** [[id:dda463fb-33dc-4672-9c02-c23a47b699f5][Creamy Chicken and Chorizo]]
+some text
+**** [[id:3945cba7-b90d-4145-be59-5ff18d2c60ea][Roasted Garlic and Parmesan Chicken]]
+some other text
+*** 2025-11-19 Wednesday
+**** Chores for today [5/5]
+- [X] take out the trash
+- [X] put away the dishes
+- [X] load dishwasher
+- [X] put away clothes
+- [X] clean kitchen counters
+**** why does the square on tasks look so small?
+- might be an issue with font
+- how do you update the font used in [[id:d07a757c-6373-47f6-be28-8131b57f35e8][Emacs]]
+***** Soultion was to add unicode to the ~init.el~
+- even with solution might not be the right one
+***** setting up a new font in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
+- ~(setq doom-font (font-spec :family "Fira Code" :size 14))~
+***** setting up pages folder in my workspace
+**** Reflection
+- today was a good day overall got most of my chores done today and was able to make bread again and learned somthing new about making bread
+- bread taste better with a bit more salt and butter also cant be too damp because bubbles wont be even and and wont rise
+- reached out to Luis but havent gotten a response
+- brother called to ask about flowers
+*** 2025-11-18 Tuesday
+**** 01:57 PM: talked with my brother this morning around 11:30
+- bought a book about addiction something about scrolling screen
+**** new note check if food stamps are available tomorrow

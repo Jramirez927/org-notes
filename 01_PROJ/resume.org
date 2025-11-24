@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       faaa4e30-f8db-42f8-ab2c-605b3419695f
+:END:
+#+title: Resume
+
+# My resume in org markdown
