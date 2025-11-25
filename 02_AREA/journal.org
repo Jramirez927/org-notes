@@ -2,10 +2,13 @@
 * 2025
 ** 2025-11 November
 *** 2025-11-24 Monday
+**** [2025-11-24 Mon 19:48] Finished Making [[file:recipe.org::*Creamy*][Creamy Chicken & Chorizo]]
 **** [2025-11-24 Mon 13:10] Went to get a haircut earlier passed by LIDL and Safeway for grocery items began watching new anime GACHIAKUTA
 - main characters Rudo and Chiwa
 **** [ ] Make bread
-**** [ ] Check unempoyment status
+**** [-] Check unempoyment status
+**** [ ] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
+ - https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
 *** 2025-11-20 Thursday
 **** Tasks [4/4]
 - [X] decide on a dish to make
