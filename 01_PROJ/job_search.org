@@ -4,4 +4,11 @@
 #+title: Job Search
 #+filetags: project
 
-| Title | Pay | URL | Contact | Response |
+| Title                 | Company     | \ Pay       | Address                               | Recruiter                                                 | Remote             | Response | Notes |
+| [[https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=51cdeb4a-72eb-4d75-9c41-0fe0896b19cb&ccId=19000101_000001&jobId=555461&lang=en_US&source=LI][GIS Developer, Mid]]    | FAA         | 100k - 130k | 500 L'Enfant Plaza SW #1100, DC       | https://www.linkedin.com/in/kevinorlandi/                 | on site as needed  |          |       |
+| [[https://www.teltrium.com/job/24-004-software-engineer-nasa-projects/][Software Engineer]]     | [[https://www.teltrium.com/jobs/][Teltrium]]    | 100k - 120k | 6406 Ivy Ln #210, Greenbelt, MD 20770 | https://www.linkedin.com/in/karen-kou-clothier/           | on site but close  |          |       |
+| [[https://barrowwise.applicantpro.com/jobs/3418269][AWS Cloud Engineer]]    | [[https://www.barrowwise.com/][Barrowwise]]  | 90k -160k   | Rockville, MD                         | [[https://www.linkedin.com/in/lexy-lindita-505152235/][Lexy Lindita]]                                              | remote             |          |       |
+| [[https://barrowwise.applicantpro.com/jobs/2161886][Application Architect]] | [[https://www.barrowwise.com/][Barrowwise]]  | 120k - 166k | WMATA in DC                           | [[https://www.linkedin.com/in/lexy-lindita-505152235/][Lexy Lindita]]                                              |                    |          |       |
+| [[https://elluminates.catsone.com/careers/5124-General/jobs/16728321-AWS-Cloud-Engineer][AWS Cloud Engineer]]    | [[https://www.elluminates.com/][Elluminates]] |             | NW, DC                                | https://www.linkedin.com/in/susan-mitchell-baker-3815862/ | 4 on-site 1 hybrid |          |       |
+| [[https://job-boards.greenhouse.io/captivation/jobs/4775238008][Software Engineer 0]]   | [[https://captivation.us/#careers][Captivation]] |             | Annapolis Junction, MD                | https://www.linkedin.com/in/jasmine-lam07/                |                    |          |       |
+| [[https://job-boards.greenhouse.io/captivation/jobs/4775241008][Software Engineer 1]]   | [[https://captivation.us/#careers][Captivation]] |             | Annapolis Junction, MD                | https://www.linkedin.com/in/jasmine-lam07/                |                    |          |       |

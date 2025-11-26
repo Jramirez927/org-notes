@@ -5,6 +5,9 @@
 #+filetags: :recipe:
 
 * Creamy Chicken and Chorizo
+:PROPERTIES:
+:ID:       34c6c8ea-0d52-40e4-8456-1ef6e83347a6
+:END:
 ** Ingredients
 - bonless chicken thighs 1.3lb (600g)
 - Spice mix
