@@ -1,27 +1,10 @@
 
 * 2025
 ** 2025-11 November
-*** 2025-11-24 Monday
-**** [2025-11-24 Mon 19:48] Finished Making [[file:recipe.org::*Creamy*][Creamy Chicken & Chorizo]]
-**** [2025-11-24 Mon 13:10] Went to get a haircut earlier passed by LIDL and Safeway for grocery items began watching new anime GACHIAKUTA
-- main characters Rudo and Chiwa
-**** [ ] Make bread
-**** [-] Check unempoyment status
-**** [ ] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
- - https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
-*** 2025-11-20 Thursday
-**** Tasks [4/4]
-- [X] decide on a dish to make
-- [X] add items to grocery list
-- [X] [[https://www.tiktok.com/@dontgobaconmyheart_/video/7370037309917449504?q=dinner%20ideas&t=1763611952497][Creamy Chicken and Chorizo]]
-  - [X] view video link and create a recipe in notes
-- [X] [[https://www.tiktok.com/@dianabishara_/video/7242382039327018246?q=dinner%20ideas&t=1763611952497][Roasted Garlic and Parmesan Chicken]]
-  - [X] also create a recipe based on this video n
-**** Resource to learn math online [[https://www.ixl.com/math][ixl.com]]
-**** [[id:dda463fb-33dc-4672-9c02-c23a47b699f5][Creamy Chicken and Chorizo]]
-some text
-**** [[id:3945cba7-b90d-4145-be59-5ff18d2c60ea][Roasted Garlic and Parmesan Chicken]]
-some other text
+*** 2025-11-18 Tuesday
+**** 01:57 PM: talked with my brother this morning around 11:30
+- bought a book about addiction something about scrolling screen
+**** new note check if food stamps are available tomorrow
 *** 2025-11-19 Wednesday
 **** Chores for today [5/5]
 - [X] take out the trash
@@ -42,7 +25,31 @@ some other text
 - bread taste better with a bit more salt and butter also cant be too damp because bubbles wont be even and and wont rise
 - reached out to Luis but havent gotten a response
 - brother called to ask about flowers
-*** 2025-11-18 Tuesday
-**** 01:57 PM: talked with my brother this morning around 11:30
-- bought a book about addiction something about scrolling screen
-**** new note check if food stamps are available tomorrow
+*** 2025-11-20 Thursday
+**** Tasks [4/4]
+- [X] decide on a dish to make
+- [X] add items to grocery list
+- [X] [[https://www.tiktok.com/@dontgobaconmyheart_/video/7370037309917449504?q=dinner%20ideas&t=1763611952497][Creamy Chicken and Chorizo]]
+  - [X] view video link and create a recipe in notes
+- [X] [[https://www.tiktok.com/@dianabishara_/video/7242382039327018246?q=dinner%20ideas&t=1763611952497][Roasted Garlic and Parmesan Chicken]]
+  - [X] also create a recipe based on this video n
+**** Resource to learn math online [[https://www.ixl.com/math][ixl.com]]
+**** [[id:dda463fb-33dc-4672-9c02-c23a47b699f5][Creamy Chicken and Chorizo]]
+some text
+**** [[id:3945cba7-b90d-4145-be59-5ff18d2c60ea][Roasted Garlic and Parmesan Chicken]]
+some other text
+*** 2025-11-24 Monday
+**** [2025-11-24 Mon 19:48] Finished Making [[file:recipe.org::*Creamy*][Creamy Chicken & Chorizo]]
+**** [2025-11-24 Mon 13:10] Went to get a haircut earlier passed by LIDL and Safeway for grocery items began watching new anime GACHIAKUTA
+- main characters Rudo and Chiwa
+**** [ ] Make bread
+**** [-] Check unempoyment status
+**** [ ] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
+ - https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
+*** 2025-11-26 Wednesday
+**** [2025-11-26 Wed 17:09] Working on creating a google sheets for my job search
+**** Went to the gym then lunch with my brother
+***** talked about school and path for Med-School
+***** TODO Buy a MCAT Prep Course / Book for Obed
+**** Went to get food and the heavy whipping cream from the grocery store
+**** TODO Apply to [[https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5ef27022-b268-4a6d-b0b0-03bf23d267e5&ccId=19000101_000001&jobId=523978&lang=en_US][AWS Full-Stack Dev for Breakforth]]

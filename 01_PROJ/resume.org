@@ -3,4 +3,99 @@
 :END:
 #+title: Resume
 
-# My resume in org markdown
+#* Jorge Ramirez
+  :PROPERTIES:
+  :PHONE: (301) 256-7179
+  :EMAIL: jorgeramirez927@gmail.com
+  :END:
+
+* EXPERIENCE
+
+** NV5 | AXIMGEO – GIS Applications Developer
+   Nov 2021 – Present
+
+*** Arlington National Cemetery
+- Designed the end-to-end workflow for the new COP (Common Operating Picture) Maps feature, creating wireframes and defining user interactions to replace the team’s manual PowerPoint mapping process.
+- Built a React gallery interface using MUI components to list, duplicate, publish, and delete COP maps, and implemented the .NET/EF Core API endpoints to update map metadata and persist changes to the database.
+- Engineered full save/load capabilities for COP maps, serializing ESRI JS SDK layers, shapes, icons, and metadata to the database and restoring saved map states when users reopened a map.
+- Developed a custom Lexical-based WYSIWYG editor with support for rich text, headers, formatting, and embedded SVG map icons; extended Lexical with custom node classes to serialize and reload inline symbols.
+- Migrated DigSlip PDF generation process to the front end using a JavaScript PDF library.
+- Developed new functionality using the Backbone JavaScript framework for the CMS app.
+- Enhanced back-end functionality of a .NET API written in C#, resolving bugs and adding new features as needed.
+
+*** Explosives Safety Siting Team
+- Implemented the login and user-onboarding workflow for the ESS web application (Angular + .NET), integrating CAC-based identity with JWT session validation to ensure only authenticated users accessed the system.
+- Built the new-user access request form using Angular Forms, incorporating existing validation logic and auto-populating user identity fields from the backend.
+- Connected the onboarding form to AWS SES via a custom .NET dependency-injection service, sending automated email notifications to administrators when users requested access.
+
+*** Georeadiness Team
+- Streamlined deployment processes by standardizing Jenkins pipelines for Python repositories.
+- Improved package management by migrating NPM and PIP repositories to Azure Artifacts.
+- Maintained and added new features to a large Python script automating the process of adding custom widgets to servers with an ArcGIS Portal install.
+- Enhanced current JavaScript repositories by increasing test coverage using JEST and React Testing Library.
+
+*** General Services Administration
+- Enhanced ESRI Web AppBuilder application by creating custom widgets using the Dojo toolkit library.
+- Collaborated with a solution engineer to enhance web map functionality and introduce new features.
+
+** TSG Solutions – GIS Web Developer
+   Dec 2019 – Nov 2021
+
+*** ANG GeoBase
+- Managed a Web Map Viewer hosting GIS data for the Air National Guard using IIS Server, ArcGIS Enterprise Server, and MySQL.
+- Developed new features, including a customized Print Widget and an S-File tool for floor plan navigation.
+- Created and published new map services on ArcGIS Enterprise Server.
+- Developed Python scripts using ArcPy for Real Property Dataset updates.
+- Generated SDSFIE data reports by installation using Python scripts.
+
+** HORUS Technology Solutions – Front End Developer
+   June 2018 – Sept 2019
+- Developed forms for Grants.gov using Node.js, Express.js, MongoDB, jQuery, and Knockout.js.
+- Deployed code updates to Development and Testing environments using Linux scripts and GitHub.
+- Worked with QA testers to streamline communication between developers and testers.
+
+** University of Maryland, Facilities Management – GIS Intern
+   Jan 2016 – Dec 2016
+- Programmed a “closest parking feature” in UMD’s Campus Web Map using the ArcGIS JavaScript API.
+- Updated layer information for the Campus Web Map using ArcMap.
+- Wrote Python scripts to update vegetation cover datasets for the campus.
+
+** Federal Aviation Administration – SharePoint Intern
+   July 2014 – Aug 2015
+- Developed custom SharePoint forms to manage employee external training requests.
+- Collaborated with management to identify and digitize parts of the employee request workflow.
+
+* EDUCATION
+
+** University of Maryland, College Park
+   B.S. in Geographical Information Systems & Computer Cartography
+   *Graduated:* Spring 2018
+
+* CERTIFICATIONS
+- AWS Cloud Practitioner (Validation: 8B5J0TX1EBVQ1Y31)
+- Certified ScrumMaster (CSM)
+- Security+ (COMP001021617199)
+
+* TECHNICAL SKILLS
+** Programming Languages
+- JavaScript
+- HTML5
+- CSS
+- Java
+- jQuery
+- Python
+
+** Tools & Technologies
+- Node.js
+- Express.js
+- Knockout.js
+- Visual Studio Code
+- JIRA
+- JAMA
+- Git / GitLab
+- MongoDB
+- Adobe Photoshop CS6
+- Adobe Illustrator CS6
+- ArcMap
+- ArcGIS
+- ENVI 5.x
