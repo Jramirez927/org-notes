@@ -1,0 +1,100 @@
+/* ==== Page + body layout ==== */
+@page {
+  /* Page margins in the PDF */
+  margin: 0.5in 0.5in; /* left/right margins = 0.5in */
+  width: 600px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
+  overflow: hidden;
+}
+title {
+    display: none;
+}
+[role="presentation"]: {
+    display: hidden;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 9pt;
+  line-height: 1.35;
+  color: #111111;
+
+  /* Take the full width inside the @page margins */
+  width: 600px;
+  /* No extra centering or width constraints */
+  /* IMPORTANT: make sure these are NOT present:
+     max-width, margin: 0 auto, big padding */
+}
+
+/* Optional: tiny internal padding if you want a bit of breathing room */
+/*
+
+/* ==== Headings (adjust as you like) ==== */
+h1 {
+   font-size: 16pt;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.08em;
+   margin: 0 0 0 0;
+}
+
+h2 {
+  font-size: 11pt;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border-bottom: 1px solid #333;
+  margin: 0.2in 0 0.06in 0;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 600;
+  margin: 0.12in 0 0.02in 0;
+}
+
+ol > li > h4 {
+  font-size: 10.5pt;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0.06in 0 0.02in 0;
+}
+/* ==== Paragraphs & lists ==== */
+
+p {
+  margin: 0 0 0 0;
+}
+
+ul {
+  margin: 0.02in 0 0.05in 0;
+  padding-left: 0.18in;
+}
+
+li {
+  margin-bottom: 0.02in;
+}
+
+li p {
+  margin: 0;
+}
+ol {
+    list-style-type: none; !important
+}
+/* ==== Links ==== */
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.center {
+    text-align: center;
+}
