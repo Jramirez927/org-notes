@@ -42,14 +42,25 @@ some other text
 **** [2025-11-24 Mon 19:48] Finished Making [[file:recipe.org::*Creamy*][Creamy Chicken & Chorizo]]
 **** [2025-11-24 Mon 13:10] Went to get a haircut earlier passed by LIDL and Safeway for grocery items began watching new anime GACHIAKUTA
 - main characters Rudo and Chiwa
-**** [ ] Make bread
-**** [-] Check unempoyment status
-**** [ ] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
+**** [X] Make bread
+**** [X] Check unempoyment status
  - https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
 *** 2025-11-26 Wednesday
 **** [2025-11-26 Wed 17:09] Working on creating a google sheets for my job search
 **** Went to the gym then lunch with my brother
 ***** talked about school and path for Med-School
-***** TODO Buy a MCAT Prep Course / Book for Obed
 **** Went to get food and the heavy whipping cream from the grocery store
-**** TODO Apply to [[https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5ef27022-b268-4a6d-b0b0-03bf23d267e5&ccId=19000101_000001&jobId=523978&lang=en_US][AWS Full-Stack Dev for Breakforth]]
+**** DONE Apply to [[https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5ef27022-b268-4a6d-b0b0-03bf23d267e5&ccId=19000101_000001&jobId=523978&lang=en_US][AWS Full-Stack Dev for Breakforth]]
+*** 2025-11-28 Friday
+**** [X] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
+**** TODO Buy a MCAT Prep Course / Book for Obed
+** 2025-12 December
+*** 2025-12-01 Monday
+**** [2025-12-01 Mon 11:25] Working on finding 5 jobs to apply to
+*** 2025-12-02 Tuesday
+**** [2025-12-02 Tue 19:11] I messaged Andy Smith from INCATech with my availability
+- I will just be paitently waiting for his response.
+**** [2025-12-02 Tue 19:04] Today was an interesting day.
+- Karen Clothier was the only one on LinkedIn that actually responded to me reaching out about my application for a Software Engineer at Teltrium. She seemed friendly and she had mentioned she would forward the message.
+**** [2025-12-02 Tue 15:25] I applied to 4 jobs
+- I applied to the job listings I found for both Tensley Consulting, and Cayuse Holdings.

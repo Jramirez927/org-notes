@@ -1,0 +1,27 @@
+                             ______________
+
+                              COVER LETTER
+
+                                jramirez
+                             ______________
+
+
+COBEC (FAA)
+=============
+
+  Dear Hiring Team,
+
+  I’m interested in the Mid-Level GIS Developer role with the FAA. I’ve
+  spent the past several years building GIS applications for federal and
+  DoD clients, working with the ArcGIS JS SDK, React, TypeScript, .NET
+  APIs, and Python tools like ArcPy. My work at NV5 | AXIMGEO includes
+  developing custom mapping features, creating Web AppBuilder widgets,
+  publishing services on ArcGIS Enterprise, and supporting users who
+  rely on accurate geospatial data every day.
+
+  I enjoy solving problems at the intersection of GIS and software
+  development, and I’m looking for a role where I can keep contributing
+  to mission-focused geospatial tools. I’d welcome the chance to bring
+  my experience to your team.
+
+  Thank you for your time, Jorge Ramirez

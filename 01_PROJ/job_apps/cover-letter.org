@@ -1,0 +1,51 @@
+#+title: Cover Letter
+
+* BreakForth
+Dear Melony Ugarte,
+
+I’m reaching out because the AWS Front and Back-End Developer role at BreakForth Solutions immediately caught my eye. Much of my work over the past several years has been spent building and improving cloud-backed applications for federal teams, so the mission here feels familiar and genuinely exciting to me.
+
+At NV5 | AXIMGEO, I split my time across different DoD-related projects, but the common theme has been developing full-stack features that need to be reliable, secure, and easy for users to work with. I’ve built React and Angular interfaces, created and maintained REST APIs in .NET and TypeScript, and worked with AWS services like SES for automated workflows. A lot of that work involves figuring out how to make different systems talk to each other cleanly, especially in environments with strict requirements and legacy components.
+
+I enjoy the kind of problem-solving that comes with cloud development—understanding what needs to scale, what needs to be locked down, and how to build something that won’t break the moment real users get their hands on it. The work you’re doing with the OCIO, especially around AWS-native applications, lines up well with the kinds of challenges I’m used to handling.
+
+I’d love the chance to talk more about the role and how my experience could fit into what the team is building.
+
+Thank you for your time,
+Jorge Ramirez
+
+* Teltrium
+Dear Dr. Karen Clothier,
+
+I’m excited to apply for the Software Engineer position supporting NASA projects. Most of my work over the past several years has been full-stack development for federal and DoD systems, where I’ve built front-end tools in React and TypeScript, developed backend services in .NET and Python, and worked closely with engineers and analysts to turn complex workflows into working applications. The idea of bringing that experience into NASA’s modeling and simulation environment is something I’d genuinely look forward to.
+
+In my current role at NV5, I’ve had the chance to design new features end-to-end, maintain databases, document architecture, and support users with tools that automate technical processes—very similar to what this position focuses on. I enjoy tackling new technologies, figuring things out quickly, and taking ownership of projects from early design discussions through implementation.
+
+I live in the DC area and would welcome the chance to contribute to a team working on NASA’s mission. Thank you for taking the time to review my application.
+
+Sincerely,
+Jorge Ramirez
+
+* Captivation
+Dear Jasmine Lam,
+
+I’m excited to apply for the AWS Cloud Engineer position with Captivation Software. Over the last several years, I’ve worked in federal and DoD environments building and supporting cloud-integrated applications, mostly using AWS, Python, and Linux-based tooling. Much of my work has involved designing backend features, creating infrastructure-connected workflows, and helping teams troubleshoot and improve systems that need to be secure, reliable, and easy to deploy.
+
+In my current role, I’ve worked with AWS services, CI/CD pipelines, operational debugging, and automation efforts that support larger federal missions, and I’ve found that I really enjoy building solutions that make a measurable impact. I’m also comfortable working hands-on in hybrid environments, collaborating with other software engineers, and adapting quickly when requirements shift or timelines tighten.
+
+What stood out about this role is the chance to go deeper into cloud engineering. As part of my own career development I want more exposure and opportuinties in the cloud space.
+
+Thank you for your time and consideration. I’d welcome the opportunity to talk more about the role.
+
+Sincerely,
+Jorge Ramirez
+
+* COBEC (FAA)
+Dear Hiring Team,
+
+I’m interested in the Mid-Level GIS Developer role with the FAA. I’ve spent the past several years building GIS applications for federal and DoD clients, working with the ArcGIS JS SDK, React, TypeScript, .NET APIs, and Python tools like ArcPy. My work at NV5 | AXIMGEO includes developing custom mapping features, creating Web AppBuilder widgets, publishing services on ArcGIS Enterprise, and supporting users who rely on accurate geospatial data every day.
+
+I enjoy solving problems at the intersection of GIS and software development, and I’m looking for a role where I can keep contributing to mission-focused geospatial tools. I’d welcome the chance to bring my experience to your team.
+
+Thank you for your time,
+Jorge Ramirez
