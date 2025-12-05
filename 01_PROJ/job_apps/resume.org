@@ -3,13 +3,13 @@
 :END:
 #+TITLE: Resume
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style-resume.css" />
-
-* Jorge Ramirez - Resume
+* Jorge Ramirez
 #+HTML: <p class="center"> jorgeramirez927@gmail.com | (301)-256-7179 </p>
+** Objective
+Detail-oriented full-stack software developer with a track record of supporting multiple concurrent projects, quickly mastering new codebases, and delivering solutions across React, Angular, .NET, cloud integrations, and automated pipelines. Experienced in secure government and enterprise systems.
 ** EXPERIENCE
 *** NV5 | AXIMGEO – GIS Applications Developer
-   Nov 2021 – Present
-
+Remote | Nov 2021 – Oct 2025
 **** *Arlington National Cemetery Team*
 - Designed the end-to-end workflow for the new COP (Common Operating Picture) Maps feature, creating wireframes and defining user interactions to replace the team’s manual PowerPoint mapping process.
 - Built a React/MUI gallery and implemented .NET/EF Core endpoints to manage map metadata and persist COP map state to the database.
@@ -35,8 +35,7 @@
 - Collaborated with a solution engineer to enhance web map functionality and introduce new features.
 
 *** TSG Solutions – GIS Web Developer
-   Dec 2019 – Nov 2021
-
+Joint Base Andrews, MD | Dec 2019 – Nov 2021
 **** *ANG GeoBase*
 - Managed a Web Map Viewer hosting GIS data for the Air National Guard using IIS Server, ArcGIS Enterprise Server, and MySQL.
 - Developed new features, including a customized Print Widget and an S-File tool for floor plan navigation.
@@ -45,21 +44,21 @@
 - Generated standardized geospatial data reports for Air National Guard installations using Python.
 
 *** HORUS Technology Solutions – Front End Developer
-   June 2018 – Sept 2019
+McLean, VA | June 2018 – Sept 2019
 
 - Developed forms for Grants.gov using Node.js, Express.js, MongoDB, jQuery, and Knockout.js.
 - Deployed code updates to Development and Testing environments using Linux scripts and GitHub.
-- Worked with QA testers to streamline communication between developers and testers.
+- Worked with quality assurance testers to streamline communication between developers and testers.
 
 *** University of Maryland, Facilities Management – GIS Intern :noexport:
-   Jan 2016 – Dec 2016
+Jan 2016 – Dec 2016
 
 - Programmed a “closest parking feature” in UMD’s Campus Web Map using the ArcGIS JavaScript API.
 - Updated layer information for the Campus Web Map using ArcMap.
 - Wrote Python scripts to update vegetation cover datasets for the campus.
 
 *** Federal Aviation Administration – SharePoint Intern :noexport:
-   July 2014 – Aug 2015
+July 2014 – Aug 2015
 
 - Developed custom SharePoint forms to manage employee external training requests.
 - Collaborated with management to identify and digitize parts of the employee request workflow.
@@ -67,7 +66,7 @@
 ** EDUCATION
 
 *** University of Maryland, College Park
-   B.S. in Geographical Information Systems & Computer Cartography, Spring 2018
+   B.S. in Geographical Information Systems & Computer Cartography, May 2018
 
 ** CERTIFICATIONS & TECHNICAL SKILLS
 - AWS Cloud Practitioner (Validation: 8B5J0TX1EBVQ1Y31)
@@ -83,8 +82,8 @@
 
 * Export Commands :noexport:
 #+BEGIN_SRC shell :results output
-cd ~/org-notes/01_PROJ
-pandoc resume.org --standalone --pdf-engine=weasyprint -o resume.pdf --metadata title=""
+cd ~/org-notes/01_PROJ/job_apps
+pandoc resume.org --standalone --pdf-engine=weasyprint -o jramirez_resume.pdf --metadata title=""
 #+END_SRC
 
 #+RESULTS:

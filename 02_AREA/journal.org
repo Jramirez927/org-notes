@@ -64,3 +64,12 @@ some other text
 - Karen Clothier was the only one on LinkedIn that actually responded to me reaching out about my application for a Software Engineer at Teltrium. She seemed friendly and she had mentioned she would forward the message.
 **** [2025-12-02 Tue 15:25] I applied to 4 jobs
 - I applied to the job listings I found for both Tensley Consulting, and Cayuse Holdings.
+*** 2025-12-03 Wednesday
+**** Goals
+- begin learing data structures to solidify understanding of data structures with youtube course [[id:704cb428-157c-4498-a339-acc991cbc8cc][Algorithms and Data Structures Beginner Course]]
+*** 2025-13-03 Thursday
+**** Anise Cookie Black Tea - had this earlier and was bomb
+**** Reviewing Rebbeca Ryans comments on my resume
+***** DONE Create an objective description for my resume
+***** TODO Figure out how to quantify impact of the things I did on my resume
+**** Applied to 5 jobs

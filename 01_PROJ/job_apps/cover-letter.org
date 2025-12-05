@@ -49,3 +49,15 @@ I enjoy solving problems at the intersection of GIS and software development, an
 
 Thank you for your time,
 Jorge Ramirez
+
+* Yext
+Dear Hiring Team,
+
+I’m excited to apply for the Software Engineer position at Yext. Most of my experience has been building and maintaining full-stack applications in federal environments, working with technologies like React, TypeScript, .NET/EF Core, Python, and SQL. On projects such as Arlington National Cemetery and Explosives Safety Siting, I’ve designed front-end features, built backend APIs, handled data persistence, and contributed ideas to improve workflows and performance — all while collaborating closely with engineers, product owners, and security teams.
+
+What draws me to Yext is the chance to work on highly scalable systems and contribute to a product used globally. I enjoy writing clean, tested code, learning new technologies, and breaking down complex problems into practical solutions. The idea of working in an agile team, contributing to libraries and frameworks, and helping shape new features aligns perfectly with how I like to build software.
+
+I’d love the opportunity to bring my engineering experience, curiosity, and collaborative mindset to Yext’s team.
+
+Thank you for your time and consideration,
+Jorge Ramirez

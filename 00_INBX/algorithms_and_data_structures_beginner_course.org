@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       704cb428-157c-4498-a339-acc991cbc8cc
+:END:
+#+title: Algorithms and Data Structures Beginner Course
+#+url: https://www.youtube.com/watch?v=8hly31xKli0
+
+* Introduction to Algorithms
+- Field of Algorithms - the collection of solutions to common problems in the field of computer science
+  - it is important to know these particular problems and to understand similar solutions
+- Algorithmic Thinking - is knowing what algorithms you have available to you and when you should apply them
+** Algorithm
+- Clearly defined problem statement with defined input and output
+- Steps need to be distinct and in a very specific order
+- A result should be produced and consistent based on a specific input
+- It should complete
+*** Correctness
+- Algorithm is correct, if on all runs of the algorithm with all possible input values result in the expected output values.
+- Also for any possible input in order for an algorithm to be correct it must end/terminate.
+- correctness is a mathamatical theory proven by mathematical induction
+*** Efficientcy
+- Measure of efficiency include time complexity and space complexity
+**** Understanding How to Measure Efficiency *Running Time*
+- Running Time- Using the number of attempts it takes to get to desired output as a measure of efficiency
+- With Linear Search (Johns Algrithm for numbers game)
+  - we can compare the best case senario (begining of list)
+  - we can compare worst case senario which is the end of the list
+- *Good measure of efficiency is the worst case* so all measures of complexity are about the measure of the worst case not the average case
+  - this is significant because when evaluating you can theoretically keep on increasing the range in order to analyze function behavior
+**** Measuring Time Complexity
+***** How do we determine the complexity of an algorithm?
+- Each step in an algorithm can contain its own complexity.
+- Example: with Binary Search:
+  - one of the steps is to find the middle of the list. This is normally a O(1) operation because most programming languages track the size of lists. If you had to traverse the list to figure out length then the time complexity would be O(n)
+  - comparing values is also O(1)
+  - splitting the list is O(log n) as half the entries are discarded
+  - the complexity is decided by the least efficient step in the algorithm so in this case it would be O(log n)
+***** Big O
+- Theoretical definition of the complexity of an algorithm as a function of the size
+****** O(n^k) Polynomial Runtime
+- Algorithm is considered to have a Polynomial Runtime if  worst case scenario is considered to be O(n^k)
+- Algorithms that are Polynomial Runtimes are considered to be efficient
+******* O(1) Constant Runtime
+******* O(n) Linear Runtime
+- worst case scenario you take ~n~ tries to find target
+- when you know the solution takes at most the same as ~n~
+******* O(log n) Logarithmic/Sublinear Runtime
+******* O(n^2) Quadratic Runtime
+- for any given number of n we carry out n^2 operations
+******* O(n log n) Quasilinear Runtime
+- example of O(n log n) is merge sort
+  - Merge Sort splits each list down the middle until lists are 1 item. Cutting lists in half recursively is a time complexity of O(log n). Then Merge Sort carries out comparison operations for each item (n number of comparisons).
+****** O(x^n) Exponential Runtime
+- An example of Exponential Runtime in real life is a combination padlock. As you increase the available dials in the padlock the available combinations increase by 10^n if your using numbers 0-9.
+- This is a similar principle used for passwords.
+******* O(n!) Factorial / Combination Runtime
+- Traveling Salesman problem - given a list of cities and the distance of each pair of cities what is the shortest possible route that visits each city and returns to original city
+  - this is ~n!~ complexity as places to visit increases combinations available are (n-1)(n-2)(n-3)...
+** Search Algorithms
+*** Linear Search / Sequential Search / Simple Search
+- Start at the begining of the list
+- compare to target value
+  - if found done
+- move sequentially one to the next value
+- reach end of list
+**** Implementation
+#+name linear_search
+#+begin_src python :results output
+list = [10,20,30,40]
+target = 40
+def linear_search(list, target):
+    for i in range(0,len(list)):
+        if (list[i] == target):
+            return i
+    return None
+print(linear_search(list, target))
+#+end_src
+
+#+RESULTS:
+: 3
+
+*** Binary Search
+- Input: Sorted list of values
+- Output: target position of value or value for when not found
+- Steps:
+  - Determine middle position of sorted list
+  - compare element with target element
+  - if match return middle position
+  - else compare target with element at current position
+    - if less than set start of list to middle position and re-evalute step 1
+    - else greater and set end of list to middle position and re-evaluate step 1
+  - repeat until target found or list only contians one element
