@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1a669718-a51d-4274-96e3-d8962bc025fd
+:END:
+#+title: Tail Call Optimization
+* TODO define examples of Tail Call Optimization

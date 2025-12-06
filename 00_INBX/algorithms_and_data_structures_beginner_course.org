@@ -8,7 +8,7 @@
 - Field of Algorithms - the collection of solutions to common problems in the field of computer science
   - it is important to know these particular problems and to understand similar solutions
 - Algorithmic Thinking - is knowing what algorithms you have available to you and when you should apply them
-** Algorithm
+** Algorithms
 - Clearly defined problem statement with defined input and output
 - Steps need to be distinct and in a very specific order
 - A result should be produced and consistent based on a specific input
@@ -18,15 +18,8 @@
 - Also for any possible input in order for an algorithm to be correct it must end/terminate.
 - correctness is a mathamatical theory proven by mathematical induction
 *** Efficientcy
-- Measure of efficiency include time complexity and space complexity
-**** Understanding How to Measure Efficiency *Running Time*
-- Running Time- Using the number of attempts it takes to get to desired output as a measure of efficiency
-- With Linear Search (Johns Algrithm for numbers game)
-  - we can compare the best case senario (begining of list)
-  - we can compare worst case senario which is the end of the list
-- *Good measure of efficiency is the worst case* so all measures of complexity are about the measure of the worst case not the average case
-  - this is significant because when evaluating you can theoretically keep on increasing the range in order to analyze function behavior
-**** Measuring Time Complexity
+- Measure of efficiency include *time complexity* and *space complexity*
+**** Time Complexity
 ***** How do we determine the complexity of an algorithm?
 - Each step in an algorithm can contain its own complexity.
 - Example: with Binary Search:
@@ -55,6 +48,22 @@
 ******* O(n!) Factorial / Combination Runtime
 - Traveling Salesman problem - given a list of cities and the distance of each pair of cities what is the shortest possible route that visits each city and returns to original city
   - this is ~n!~ complexity as places to visit increases combinations available are (n-1)(n-2)(n-3)...
+***** Understanding How to Measure Efficiency *Running Time*
+- Running Time- Using the number of attempts it takes to get to desired output as a measure of efficiency
+- With Linear Search (Johns Algrithm for numbers game)
+  - we can compare the best case senario (begining of list)
+  - we can compare worst case senario which is the end of the list
+- *Good measure of efficiency is the worst case* so all measures of complexity are about the measure of the worst case not the average case
+  - this is significant because when evaluating you can theoretically keep on increasing the range in order to analyze function behavior
+***** Linear Search
+***** Binary Search
+**** Space Complexity
+- measure of how much working storage or extra storage is needed
+***** Iterative Binary Search
+- consider first(i) and last(l) pointers. Because the pointer values are changing and we are not manipulating the size of the array in memory this is O(1)  complexity this is constant space
+- Space complexity only cares about the additional memory is needed to solve the problem
+***** Recursive Binary Search
+- because we are creating a new list with every recursive call and the new list is half the size the space complexity is O(log n) but this is language dependent some languages handle space complexity for recursive calls with [[id:1a669718-a51d-4274-96e3-d8962bc025fd][Tail Call Optimization]]
 ** Search Algorithms
 *** Linear Search / Sequential Search / Simple Search
 - Start at the begining of the list
@@ -63,20 +72,30 @@
 - move sequentially one to the next value
 - reach end of list
 **** Implementation
-#+name linear_search
 #+begin_src python :results output
 list = [10,20,30,40]
-target = 40
+target = 30
 def linear_search(list, target):
+    """
+    Returns target position else returns None
+    """
     for i in range(0,len(list)):
         if (list[i] == target):
             return i
     return None
-print(linear_search(list, target))
+
+def verify(index):
+    if index is not None:
+        print("Target is found at index: ", index)
+    else:
+        print("Target is not found.")
+
+print(verify(linear_search(list,target)))
 #+end_src
 
 #+RESULTS:
-: 3
+: Target is found at index:  2
+: None
 
 *** Binary Search
 - Input: Sorted list of values
@@ -89,3 +108,67 @@ print(linear_search(list, target))
     - if less than set start of list to middle position and re-evalute step 1
     - else greater and set end of list to middle position and re-evaluate step 1
   - repeat until target found or list only contians one element
+**** Implementation
+
+#+name binary_search
+#+begin_src python :results output
+list = [10,20,30,40,50,60,77,80,90]
+target = 50
+def binary_search(list, target):
+    """
+    Returns target position else returns None
+    """
+    i = 0
+    l = len(list) -1
+    while  i <= l :
+        m = l+i//2
+        if(list[m] == target):
+            return m
+        elif(list[m] > target):
+            l = m - 1;
+        else:
+            i = m + 1;
+    return None;
+
+def verify(index):
+    if index is not None:
+        print("Target is found at index: ", index)
+    else:
+        print("Target is not found.")
+
+print(verify(binary_search(list,target)))
+#+end_src
+
+#+RESULTS:
+: Target is found at index:  4
+: None
+
+#+name: recursive_binary_search
+#+begin_src python :results output
+list = [10,20,30,40,50,60,77,80,90]
+target = 40
+
+def recursive_binary_search(list, target): # the recursive function is good if you dont want to know location and just want to verify its is in the list
+    if( list == [] ): #is it a good idea to start with end case?
+        return False
+    mid = len(list)//2
+    if list[mid] == target:
+        return True
+    elif list[mid] < target:
+        return recursive_binary_search(list[mid + 1:],target)
+    else:
+        return recursive_binary_search(list[:mid],target)
+
+def verify(res):
+    if res:
+        print("Target is found.")
+    else:
+        print("Target is not found.")
+
+print(verify(recursive_binary_search(list,target)))
+
+#+end_src
+
+#+RESULTS: recursive_binary_search
+: Target is found.
+: None

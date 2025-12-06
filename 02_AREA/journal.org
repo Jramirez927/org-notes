@@ -73,3 +73,7 @@ some other text
 ***** DONE Create an objective description for my resume
 ***** TODO Figure out how to quantify impact of the things I did on my resume
 **** Applied to 5 jobs
+*** 2025-12-06 Saturday
+**** [2025-12-06 Sat 11:55]
+***** KiCad -Schematic Capture & PCB software - free
+***** nextpcb.com/dfm - software for capturing issues with PCB designs

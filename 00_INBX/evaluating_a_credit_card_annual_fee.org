@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       896e06f1-e29e-4580-9c6b-7a17a48452b6
+:END:
+#+title: Evaluating a Credit Card Annual Fee
+
+* Calltoleap on instagram teaches how to make sense of the annual fee for American Express Gold
+- https://www.instagram.com/reel/C-qwHjFC65Q/?igsh=MW1wZ3Q0YTFqMGN1Zw%3D%3D
+** 3 steps:
+1. Choose credit card with annual fee only for specific category
+   - write down annual fee
+   - write down credits it gives you
+   - look at cash back points or percents
+2. Subtract credit by dining fee then divide by cash back credit percentage
+   - 250 - 120 / .004 = 3,250
+   - that big number is what you need to spend to make it worth it
