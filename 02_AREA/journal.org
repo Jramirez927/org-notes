@@ -44,7 +44,7 @@ some other text
 - main characters Rudo and Chiwa
 **** [X] Make bread
 **** [X] Check unempoyment status
- - https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
+ -  https://www.erichgrunewald.com/posts/setting-up-gmail-in-doom-emacs-using-mbsync-and-mu4e/
 *** 2025-11-26 Wednesday
 **** [2025-11-26 Wed 17:09] Working on creating a google sheets for my job search
 **** Went to the gym then lunch with my brother
@@ -75,5 +75,5 @@ some other text
 **** Applied to 5 jobs
 *** 2025-12-06 Saturday
 **** [2025-12-06 Sat 11:55]
-***** KiCad -Schematic Capture & PCB software - free
+***** KiCad - Schematic Capture & PCB software - free
 ***** nextpcb.com/dfm - software for capturing issues with PCB designs

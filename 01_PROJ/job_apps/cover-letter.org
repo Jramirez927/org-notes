@@ -61,3 +61,14 @@ I’d love the opportunity to bring my engineering experience, curiosity, and co
 
 Thank you for your time and consideration,
 Jorge Ramirez
+
+* BAE
+Dear Hiring Team,
+
+I’m excited to apply for the Web Developer role. I’ve spent the last several years building full-stack applications for federal and DoD teams, working extensively with React/TypeScript on the front end and .NET/EF Core, Node, and SQL/PostgreSQL on the back end. On the Arlington National Cemetery project, I developed responsive React interfaces, designed RESTful APIs, and implemented database-driven features to support complex user workflows. On the Explosives Safety Siting team, I built secure authentication and backend logic using .NET middleware and CAC/JWT validation.
+
+
+I also have experience with DevSecOps practices—streamlining Jenkins pipelines, containerizing services with Docker, and improving automated testing with JEST. I enjoy working across the full stack and contributing to secure, reliable, user-focused applications.
+
+Thank you for your consideration,
+Jorge Ramirez
