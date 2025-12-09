@@ -172,8 +172,185 @@ print(verify(recursive_binary_search(list,target)))
 #+RESULTS: recursive_binary_search
 : Target is found.
 : None
+*** Bogo Search
+** Sorting Algorithms
+*** Merge Sort
+**** Array Implementation
+#+NAME: array-merge-sort
+#+BEGIN_SRC python
+def merge_sort(list):
+
+    if len(list) <= 1:
+        return list
+
+    left_half, right_half = split(list)
+    left = merge_sort(left_half)
+    right = merge_sort(right_half)
+
+    return merge(left,right)
+
+def split(list):
+    mid = len(list)//2
+
+    left = list[:mid]
+    right = list[mid:]
+
+    return left, right
+
+def merge(left, right):
+    l = []
+    i = 0
+    j = 0
+
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            l.append(left[i])
+            i+=1
+        else:
+            l.append(right[j])
+            j+=1
+
+    while i < len(left):
+        l.append(left[i])
+        i+=1
+    while j < len(right):
+        l.append(right[j])
+        j+=1
+
+    return l
 
 
+#+END_SRC
+
+#+RESULTS: merge-sort
+: None
+
+#+BEGIN_SRC python :results output :noweb yes
+<<array-merge-sort>>
+
+list = [33,12,40,5,192]
+sorted = merge_sort(list)
+
+print(sorted)
+#+END_SRC
+
+#+RESULTS:
+: [5, 12, 33, 40, 192]
+**** Linked List Merge Sort
+#+NAME: linkedlist-merge-sort
+#+BEGIN_SRC python :results output :noweb yes
+<<LinkedList-Class>>
+
+def merge_sort(linked_list):
+    if linked_list.size() == 0 or linked_list.size() == 1:
+        return linked_list;
+
+    left_half, right_half = split(linked_list)
+
+    print( "w: ", linked_list, "\n\tl:", left_half, "\n\tr:", right_half )
+    left = merge_sort(left_half)
+    right = merge_sort(right_half)
+
+    return merge(left,right)
+
+def split(linked_list):
+    # Split has time complexity of O(log n)
+    # it is dividing recursively the array by two
+    if linked_list.head == None:
+        return None, None
+    if linked_list.size() == 1:
+        return linked_list, None
+
+    left_half = LinkedList()
+    right_half = LinkedList()
+
+    mid_point = linked_list.size() //2
+    mid_node = linked_list.get_node_at(mid_point -1)
+
+    right_half.head = mid_node.next
+    mid_node.next = None
+    left_half.head = linked_list.head
+
+    #print("LEFT: ", left_half, "\nRIGHT", right_half)
+    return left_half, right_half
+
+def merge(left, right):
+    # merge has a time complexity of O(n)
+    # Merges two linked list, sorting data in nodes
+    # returns a new, merged list
+
+    #create new linked list
+    merged = LinkedList()
+
+    # add a fake head that is discarded
+    merged.head = Node(0)
+    # set current to the head of the list
+    current = merged.head
+
+    #obtain head nodes of input lists
+    left_head = left.head
+    right_head = right.head
+
+    # iterate over left and right until reached the tail node of either
+    while left_head or right_head:
+        if left_head is None:
+            current.next = right_head
+            right_head = right_head.next
+        elif right_head is None:
+            current.next = left_head
+            left_head = left_head.next
+        else:
+            if left_head.data < right_head.data:
+                current.next = left_head
+                left_head = left_head.next
+            else:
+                current.next = right_head
+                right_head = right_head.next
+        current = current.next
+    # removing dummy node
+    head = merged.head.next
+    merged.head = head
+
+    return merged
+
+#+END_SRC
+
+#+RESULTS: linkedlist-merge-sort
+: Initialized Linked List Class
+
+#+BEGIN_SRC python :results output :noweb yes
+<<linkedlist-merge-sort>>
+unsorted_list = LinkedList()
+unsorted_list.append(5)
+unsorted_list.append(1)
+unsorted_list.append(9)
+unsorted_list.append(8)
+unsorted_list.append(10)
+print(unsorted_list)
+sorted_list = merge_sort(unsorted_list)
+print(sorted_list)
+
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+Initialized Linked List Class
+(HEAD: 5)->(1)->(9)->(8)->(TAIL: 10)
+w:  (HEAD: 5)->(TAIL: 1)
+	l: (HEAD: 5)->(TAIL: 1)
+	r: (HEAD: 9)->(8)->(TAIL: 10)
+w:  (HEAD: 5)
+	l: (HEAD: 5)
+	r: (HEAD: 1)
+w:  (HEAD: 9)
+	l: (HEAD: 9)
+	r: (HEAD: 8)->(TAIL: 10)
+w:  (HEAD: 8)
+	l: (HEAD: 8)
+	r: (HEAD: 10)
+(HEAD: 1)->(5)->(8)->(9)->(TAIL: 10)
+#+end_example
+*** Quicksort
 * Introduction to Datastructures
 ** Why do we need more datastructures than a program language provides?
 ** What is a datastructure?
@@ -210,7 +387,7 @@ for n in new_list:
 - extend essentially makes a series of append calls until the items in other list have been added to current list
 **** Delete
 - like insert if an element is deleted from a list every other element has to be shifted to the left (for insert the shift is to the right)
-- Delete has an upper bound of O(n) otherwise known as linear runtime
+  - Delete has an upper bound of O(n) otherwise known as linear runtime
 *** Linked List
 - A linked list can be a better tool than an Array if the processing happening is more about manipulating (insert,deleting, extending) than it is about accessing a value.
 - Each element in the data structure of a linked list is contained in a Node. A node models the item and a reference to the next node in a list. There is the head node (first node) and tail node (last node) in a linked list.
@@ -238,13 +415,11 @@ class Node:
 
 #+RESULTS: Initialize_Node
 
-#+RESULTS:
-: <Node data: 1>
-
 #+NAME: LinkedList-Class
 #+BEGIN_SRC python  :noweb yes
 <<Node-Class>>
 
+print("Initialized Linked List Class")
 class LinkedList:
     """
     Singly Linked List
@@ -304,6 +479,15 @@ class LinkedList:
 
         return None
 
+    def get_node_at(self, index):
+        current = self.head
+        pos = 0
+
+        while pos < index:
+            current = current.next
+            pos +=1
+        return current
+
     def remove(self, target):
         current = self.head
         prev = None
@@ -353,5 +537,6 @@ print(linked_list)
 #+END_SRC
 
 #+RESULTS:
+: Initialized Linked List Class
 : Found:  <Node data: 2.5>
 : (HEAD: 1)->(2)->(2.5)->(3)->(4)->(TAIL: 5)
