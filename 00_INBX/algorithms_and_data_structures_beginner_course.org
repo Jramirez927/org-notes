@@ -351,6 +351,9 @@ w:  (HEAD: 8)
 (HEAD: 1)->(5)->(8)->(9)->(TAIL: 10)
 #+end_example
 *** Quicksort
+*** Selection Sort
+*** Bogo Sort
+- function just randomly sorts values and checks if sorted
 * Introduction to Datastructures
 ** Why do we need more datastructures than a program language provides?
 ** What is a datastructure?
