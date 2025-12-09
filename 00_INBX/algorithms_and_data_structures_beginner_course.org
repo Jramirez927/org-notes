@@ -216,7 +216,7 @@ for n in new_list:
 - Each element in the data structure of a linked list is contained in a Node. A node models the item and a reference to the next node in a list. There is the head node (first node) and tail node (last node) in a linked list.
 **** Implementation
 #+NAME: Node-Class
-#+BEGIN_SRC python :results output
+#+BEGIN_SRC python
 class Node:
     """
     An object for storing single node of linked list.
@@ -230,19 +230,19 @@ class Node:
 
     def __repr__(self):  # str representation of obj
         return "<Node data: %s>" % self.data
-    def __str__(self):
-        return "<Node data: %s>" % self.data
 
 #+END_SRC
 
 #+RESULTS: Node-Class
+: None
 
 #+RESULTS: Initialize_Node
 
 #+RESULTS:
 : <Node data: 1>
 
-#+BEGIN_SRC python :results output :noweb yes
+#+NAME: LinkedList-Class
+#+BEGIN_SRC python  :noweb yes
 <<Node-Class>>
 
 class LinkedList:
@@ -262,29 +262,96 @@ class LinkedList:
         while current:
             count += 1
             current = current.next
+        return count
 
     def append(self, data):
         current = self.head
         if(current == None):
             self.head = Node(data)
         else:
-            while(current):
+            while(current.next):
                 current = current.next
-            current = Node(data)
+            current.next = Node(data)
 
-    def __str__(self):
+    def insert(self, index, data):
+        new_node = Node(data)
+        current_pos = 0
+        current_node = self.head
+
+        if index > self.size():
+            raise IndexError("Index out of bounds");
+        if index == 0:
+            new_node.next = self.head
+            self.head = new_node
+        else:
+            prev_node = None
+             #you want to get the node before the position you want to add to not lose prev reference
+            while current_pos < index -1:
+                current_node = current_node.next
+                current_pos +=1
+
+            new_node.next = current_node.next
+            current_node.next = new_node
+
+    def search(self, target):
         current = self.head
-        res = ""
-        if(current == None):
-            return "Empty List"
-        while(current):
-            res +=current.__str__ + "/n"
+
+        while current:
+            if current.data == target:
+                return current
+            else:
+                current = current.next
+
+        return None
+
+    def remove(self, target):
+        current = self.head
+        prev = None
+        while current and current.data != target:
+            prev = current
             current = current.next
 
-linkedList = LinkedList()
-linkedList.append(0)
-linkedList.append(22)
-print(linkedList)
+        if prev:
+            prev.next = current.next
+        else:
+            self.head = current.next
+
+    def __repr__(self):
+        current = self.head
+        nodes = []
+
+        while current:
+            if current is self.head:
+                nodes.append("(HEAD: %s)" % current.data)
+            elif current.next is None:
+                nodes.append("(TAIL: %s)" % current.data)
+            else:
+                nodes.append("(%s)" % current.data)
+            current = current.next
+        return  '->'.join(nodes)
+
+#+END_SRC
+
+#+RESULTS: LinkedList-Class
+: None
+
+#+RESULTS:
+
+#+BEGIN_SRC python :results output :noweb yes
+<<LinkedList-Class>>
+linked_list = LinkedList()
+linked_list.append(1)
+linked_list.append(2)
+linked_list.append(3)
+linked_list.append(4)
+linked_list.append(5)
+linked_list.append(6)
+linked_list.insert(2, 2.5)
+linked_list.remove(6)
+print("Found: ", linked_list.search(2.5))
+print(linked_list)
 #+END_SRC
 
 #+RESULTS:
+: Found:  <Node data: 2.5>
+: (HEAD: 1)->(2)->(2.5)->(3)->(4)->(TAIL: 5)
