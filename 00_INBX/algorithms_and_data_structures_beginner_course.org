@@ -172,3 +172,119 @@ print(verify(recursive_binary_search(list,target)))
 #+RESULTS: recursive_binary_search
 : Target is found.
 : None
+
+
+* Introduction to Datastructures
+** Why do we need more datastructures than a program language provides?
+** What is a datastructure?
+** Datastructures
+*** Arrays
+- Arrays are contiguous data structure
+- depending on programming language Arrays can be heterogenous or homogenous
+  - languags like swift and JavaScript arrays are homogenous
+- elements are accessed using an index
+#+BEGIN_SRC python :results output
+new_list = [1,2,3]
+result = new_list[0]
+print(result)
+
+if 1 in new_list: print(True)
+for n in new_list:
+    if n==1:
+        print(True)
+    break
+
+#+END_SRC
+
+#+RESULTS:
+: 1
+: True
+: True
+**** Insert
+- Inserting a list item has a linear run time because at the worst case scenario you will have to update the items after the insert to thier new positions
+**** Append
+- the best case scenario is the ~append~ where adding the item at the end only needs one step
+- In python append causes an expansion of the memory allocation called ~resize~. The size of the array is not necessaryily the amount that has been allocated in space. As the array fills its memory it will increase the memory allocated, and the growth pattern follows this item count 0,4,8,16,25,35...
+  - over an average append operations take constant space this is called Ammortized Constant Space Complexity
+**** Extend
+- extend essentially makes a series of append calls until the items in other list have been added to current list
+**** Delete
+- like insert if an element is deleted from a list every other element has to be shifted to the left (for insert the shift is to the right)
+- Delete has an upper bound of O(n) otherwise known as linear runtime
+*** Linked List
+- A linked list can be a better tool than an Array if the processing happening is more about manipulating (insert,deleting, extending) than it is about accessing a value.
+- Each element in the data structure of a linked list is contained in a Node. A node models the item and a reference to the next node in a list. There is the head node (first node) and tail node (last node) in a linked list.
+**** Implementation
+#+NAME: Node-Class
+#+BEGIN_SRC python :results output
+class Node:
+    """
+    An object for storing single node of linked list.
+    """
+
+    data = None
+    next = None
+
+    def __init__(self, data):
+        self.data = data
+
+    def __repr__(self):  # str representation of obj
+        return "<Node data: %s>" % self.data
+    def __str__(self):
+        return "<Node data: %s>" % self.data
+
+#+END_SRC
+
+#+RESULTS: Node-Class
+
+#+RESULTS: Initialize_Node
+
+#+RESULTS:
+: <Node data: 1>
+
+#+BEGIN_SRC python :results output :noweb yes
+<<Node-Class>>
+
+class LinkedList:
+    """
+    Singly Linked List
+    """
+
+    def __init__(self):
+        self.head = None
+
+    def is_empty(self):
+        return self.head == None
+
+    def size(self):
+        current = self.head
+        count = 0
+        while current:
+            count += 1
+            current = current.next
+
+    def append(self, data):
+        current = self.head
+        if(current == None):
+            self.head = Node(data)
+        else:
+            while(current):
+                current = current.next
+            current = Node(data)
+
+    def __str__(self):
+        current = self.head
+        res = ""
+        if(current == None):
+            return "Empty List"
+        while(current):
+            res +=current.__str__ + "/n"
+            current = current.next
+
+linkedList = LinkedList()
+linkedList.append(0)
+linkedList.append(22)
+print(linkedList)
+#+END_SRC
+
+#+RESULTS:

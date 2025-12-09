@@ -218,13 +218,13 @@ the perfect finish.
 
 
 * Bread (Dutch Oven)
-** ingredients
+** Ingredients
 - packet of yeast
 - water 1.5 cups
 - sugar 2 tsp
 - salt 2 tsp
 - butter 2 tbsp
-- bread flour 420g @@comment: next time try 500g @@
+- bread flour 370g @@comment: next time try 500g @@
 ** Instructions
 *** activate yeast
  - by adding yeast, sugar, and the warm water to a bowl and let the yeast activate for about 5-10 mins
