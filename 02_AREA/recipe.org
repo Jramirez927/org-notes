@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       6ad28cee-dd57-409c-ad04-092987a7b54e
 :END:
-#+title: Recipe
-#+filetags: :recipe:
+*+title: Recipe
+*+filetags: :recipe:
 
 * Creamy Chicken and Chorizo
 :PROPERTIES:
@@ -313,6 +313,7 @@ Serves 2 + left over pesto.
 - [ ] 2 red onions, thinly sliced
 - [ ] 1 1/2 tbsp brown sugar
 - [ ] 2 tsp apple cider vinegar
+
 * Brioche Buns
 ** Ingredients
 - [ ] 3 large eggs, divided
@@ -344,3 +345,80 @@ Serves 2 + left over pesto.
 - with milk and left over egg whites create an egg wash to put on buns
 - bake for 8 mins , rotate pan or positions in oven
 - bake for another 5 to 8 mins
+
+
+* White Bean Kale Salid w/ Tahini Dressing
+** Ingredients
+*** GARLIC CROUTONS optional
+- [ ] 2 cups white or wheat bread (cubed // day old is best // sub gluten-free if needed)
+- [ ] 1/4 cup olive oil (or other neutral oil, such as avocado)
+- [ ] 1/4 tsp each garlic powder, sea salt + black pepper
+*** BEANS
+- [ ] 1 15-ounce can white or butter beans (rinsed and drained)
+- [ ] 1/2 lemon, juiced (1/2 lemon yields ~1 Tbsp or 15 ml)
+- [ ] 1 Tbsp olive oil
+- [ ] 1/4 tsp sea salt
+- [ ] 1 Tbsp fresh parsley (chopped // plus more for topping)
+*** SALAD
+- [ ] 10 ounces kale (chopped // large stems removed)
+- [ ] 1 lemon, juiced (1 lemon yields ~2 Tbsp or 30 ml)
+- [ ] 1 Tbsp olive oil
+- [ ] 1 Tbsp maple syrup
+- [ ] 1 pinch each sea salt + black pepper
+- [ ] 1 clove garlic (minced)
+*** DRESSING
+- [ ] 1/3 cup tahini
+- [ ] 1 clove garlic (minced)
+- [ ] 1 1/2 lemons, juiced (1 1/2 lemons yield ~3-4 Tbsp or 45-60 ml)
+- [ ] 1-2 Tbsp maple syrup
+- [ ] 1 pinch each sea salt + black pepper
+- [ ] Hot water (to thin)
+** Instructions
+1. If making croutons (optional), preheat oven to 325 degrees F (162 C).
+2. Add bread cubes to a large mixing bowl. In a separate bowl, whisk together oil, garlic powder, sea salt and pepper, and pour over bread. Toss to combine. Season once more with a bit more garlic powder, salt and pepper. Toss once more.
+3. Spread on a bare baking sheet and bake for 15-20 minutes or until golden brown. Flip/stir at the 10-minute mark to ensure even baking. Set aside.
+4. In the meantime, add drained beans to a small mixing bowl and add lemon juice, olive oil, sea salt, and fresh parsley. Toss to combine. Set aside.
+5. Add kale to a large mixing bowl with lemon juice, olive oil, maple syrup, salt, pepper and minced garlic. Use your hands to massage the kale and break down its texture a bit, and to season the salad.
+6. To prepare dressing, add tahini, garlic, lemon juice, maple syrup, sea salt, and pepper to a small mixing bowl. Whisk to combine, then add hot water to thin until pourable. Taste and adjust seasonings as needed. Set aside.
+7. Lastly, add beans, croutons, and 3/4 of the dressing to the kale and toss to combine. Serve with any additional dressing and garnish with vegan parmesan cheese (optional). Best when fresh. If serving later, store dressing and croutons separate.
+
+
+* Creamy Cocunut Lime Chicken
+Prep Time: 10 minutes minutes
+Cook Time: 20 minutes minutes
+Total Time: 30 minutes minutes
+Servings: 4
+Calories: 502kcal
+** Ingredients
+- [ ] 1 shallot, diced
+- [ ] 4 cloves garlic, minced
+- [ ] 1 tbsp fresh ginger, grated on a microplane
+- [ ] 1/4 cup fresh cilantro, chopped (plus more for topping)
+- [ ] 1/3 cup lime juice (about 2 limes)
+- [ ] 4 chicken breasts see notes
+- [ ] 2 tbsp avocado oil (or coconut oil)
+- [ ] 1.5 cups coconut milk see notes
+- [ ] 1/4 cup chicken broth
+- [ ] Salt and pepper
+- [ ] Lime slices for topping (optional)
+---
+** Instructions
+1. Prep shallot, garlic, ginger and cilantro as noted. Juice limes and set aside.
+2. Place the chicken breasts between two pieces of parchment paper and pound them down to make them even in thickness. Sprinkle each side of the chicken with salt and pepper.
+3. Heat a large skillet over medium heat and add avocado oil.
+4. Once hot, add the chicken to the pan (you may have to cook the chicken in 2 batches depending on the size of your pan). Cook, without disturbing for 3-4 minutes, until a nice brown crust has formed. Flip and cook another 3-4 minutes on the other side, until the chicken is mostly cooked through.
+5. Remove chicken from the skillet and set aside. Lower the heat to medium.
+6. Add more oil if needed and add the garlic and shallot to the pan. Cook, stirring constantly, for 1-2 minutes.
+7. Add chicken broth, coconut milk, lime juice, ginger and cilantro to the pan. Stir to mix, scraping up any browned bits remaining in the pan from when you cooked your chicken.
+8. Add the chicken breasts back to the skillet with the sauce. Cover and turn heat down to low. Simmer for 5 minutes, or until the chicken is fully cooked.
+9. Serve with vegetables, potatoes, rice or cauli rice. Spoon some sauce over everything for serving. Sprinkle with cilantro and garnish with lime slices (optional).
+
+* Asian Vinegrette
+** Ingredients
+- 1 tbsp rice vinegar
+- 1 tbsp soy sauce
+- 1 tbsp miso paste
+- 2 tsp sweetener
+- 1 tsp seasame oil
+- 1 clove grated garlic
+- 1 tsp grated ginger
