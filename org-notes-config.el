@@ -63,7 +63,10 @@
            "* [ ] %?\n  %i\n  %a")
 
           ("j" "Jornal Entries")
-          ("jj" "Journal" entry
+          ("jj" "Entry" entry
+           (file+olp+datetree "02_AREA/journal.org")
+           "* %U %?\n" :prepend t)
+          ("ji" "Link" entry
            (file+olp+datetree "02_AREA/journal.org")
            "* %U %?\n%i\n%a" :prepend t)
 
