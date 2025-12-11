@@ -53,7 +53,7 @@ some other text
 **** DONE Apply to [[https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5ef27022-b268-4a6d-b0b0-03bf23d267e5&ccId=19000101_000001&jobId=523978&lang=en_US][AWS Full-Stack Dev for Breakforth]]
 *** 2025-11-28 Friday
 **** [X] link to setting up gmail in [[id:bc4e5c8f-f923-462d-8dd7-79e83fb92abd][Doom Emacs]]
-**** TODO Buy a MCAT Prep Course / Book for Obed
+**** DONE Buy a MCAT Prep Course / Book for Obed
 ** 2025-12 December
 *** 2025-12-01 Monday
 **** [2025-12-01 Mon 11:25] Working on finding 5 jobs to apply to
