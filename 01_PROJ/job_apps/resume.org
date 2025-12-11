@@ -69,9 +69,9 @@ July 2014 – Aug 2015
    B.S. in Geographical Information Systems & Computer Cartography, May 2018
 
 ** CERTIFICATIONS & TECHNICAL SKILLS
-- AWS Cloud Practitioner (Validation: 8B5J0TX1EBVQ1Y31)
+# - AWS Cloud Practitioner (Validation: 8B5J0TX1EBVQ1Y31)
 - Certified ScrumMaster (CSM)
-- Security+ (COMP001021617199)
+- CompTIA Security+ (COMP001021617199) Issued:2020-02-07  Expires:2026-02-07
 *** Programming Languages
 - JavaScript, TypeScript, C#, Python, SQL, HTML5, CSS
 *** Frameworks & Libraries
