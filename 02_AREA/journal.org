@@ -79,3 +79,6 @@ some other text
 ***** nextpcb.com/dfm - software for capturing issues with PCB designs
 *** 2025-12-09 Tuesday
 **** [2025-12-09 Tue 21:34] - looking for bread tips
+*** 2025-12-10 Wednesday
+**** [2025-12-10 Wed 21:17] set up my bluetooth keyboard with windows computer
+learning to navigate emacs with it

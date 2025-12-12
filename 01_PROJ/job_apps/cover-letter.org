@@ -72,3 +72,14 @@ I also have experience with DevSecOps practices—streamlining Jenkins pipelines
 
 Thank you for your consideration,
 Jorge Ramirez
+
+* Cherokee
+Dear Hiring Team,
+
+I’m excited to apply for the Full Stack Engineer I role at Cherokee Federal. Over the past several years, I’ve built and maintained full-stack applications for federal and DoD customers, working with React, TypeScript, Angular, .NET/EF Core, Python, SQL/PostgreSQL, and a variety of cloud-connected workflows. Much of my work has focused on designing user-facing features, developing secure backend logic, building RESTful APIs, and improving application performance for mission-driven systems.
+
+
+Thank you for your time and consideration. I’d welcome the chance to contribute my full-stack development experience and federal project background to Cherokee Federal’s engineering team.
+
+Sincerely,
+Jorge Ramirez

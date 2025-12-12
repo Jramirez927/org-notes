@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       27d6a7a1-0b79-409c-baa9-8f455cbbc2df
+:END:
+#+title: AWS Certified Solutions Architect
+#+filetags: :project:
+
+* Tasks
+** TODO this is a goal of mine im looking to get certified as a AWS Solutions Architect Associate by the end of the year
+DEADLINE: <2025-12-16 Tue>
+** TODO Notes on https://www.youtube.com/watch?v=c3Cn4xYfxJY
+:LOGBOOK:
+CLOCK: [2025-12-10 Wed 20:52]
+:END:
+** TODO Exam Practice https://app.exampro.co/student/journey/saa-c03
+
+* What is the Solutions Architect Associate?
+- concept-based AWS certification teaching:
+  - broadcast amount of core AWS services
+  - focus on theoretical limits
+* Who is certfication for?
+- you want to work as a cloud engineer or developer
+- idea of understanding how to architect multiple services together
+
+* AWS Certification Roadmap
+* AWS Certified Solutions Architect
+- average study time 24hr
+- watch video lecture and memorize key info
+- do hands-on labs /follow along/
+- do practice exams
+- pass exam with 720/1000
+- no penalty for wrong questions
+- 50 questions scored vs 15 not scored total 65 questions
+- duration 130 mins with an average time of 2 mins per question
+  - 160 min seat time
+- cert valid for 3 years
