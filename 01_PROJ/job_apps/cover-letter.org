@@ -1,5 +1,15 @@
 #+title: Cover Letter
 
+* BASIC COVER LETTER
+Cover Letter — <JOB_POS> | <COMPANY_NAME>
+
+Dear Hiring Team,
+
+I’m excited to apply for the Junior Full Stack Developer role at Harmonia Holdings Group. I bring hands-on experience building full-stack applications for federal clients, working with React and Angular on the front end, .NET and Python services on the back end, and SQL/PostgreSQL for data access. My background includes developing REST APIs, supporting CI/CD pipelines with Jenkins, containerizing services with Docker, and collaborating in Agile DevOps teams to deliver secure, reliable solutions in AWS-based environments. I’m a U.S. citizen with Public Trust eligibility and am eager to continue growing as a full stack developer while contributing to Harmonia’s mission-driven federal work.
+
+Sincerely,
+Jorge Ramirez
+
 * BreakForth
 Dear Melony Ugarte,
 
