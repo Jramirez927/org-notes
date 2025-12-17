@@ -34,6 +34,28 @@ DEADLINE: <2025-12-16 Tue>
 * CloudWatch
 - metrics
 - What are namespaces in cloudwatch?
+* CloudFront
+- Search Order
+- Edge Cache
+- Regional Cache
+- Origin
+* VPC
+- Gateway endpoint
+- NAT Gateway
+- private subnets
+- Internet Gateway
+* S3
+- labels
+- lifecycle transitions
+- replication rules
+- access controls
+** S3 Object Tagging
+** S3 Lifecycle Policies
+** S3 Inventory
+** S3 Access Logs
+** S3 Transfer Acceleration
+** S3 Select
+- when using CSV/JSON or Parquet for S3 I think you can get a subset of data with this service
 * EC2
 * RDS
 * IAM
@@ -43,3 +65,14 @@ DEADLINE: <2025-12-16 Tue>
 - permissions policy attached to role
 - cross-account assumption flow
 - EC2 service principal (ec2.amazonaws.com)
+* EBS
+- max single volume 16TiB
+* Load Balancer
+- Application load balancer
+- Network Load Balancer
+- Classic Load Balance
+* AWS Direct Connect
+- 802.1Q VLAN tagging (VLANs)
+- isolated virtual interfaces (VIFs)
+- partitioning
+* Route 53
