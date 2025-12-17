@@ -84,3 +84,5 @@ some other text
 learning to navigate emacs with it
 *** 2025-12-15 Monday
 **** [2025-12-15 Mon 15:13] Working with my brother to learn some Python
+*** 2025-12-16 Tuesday
+**** [2025-12-16 Tue 20:12] Exam Practice for AWS Cert
