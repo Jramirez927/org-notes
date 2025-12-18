@@ -87,6 +87,11 @@ learning to navigate emacs with it
 *** 2025-12-16 Tuesday
 **** [2025-12-16 Tue 20:12] Exam Practice for AWS Cert
 *** 2025-12-17 Wednesday
+**** [2025-12-17 Wed 23:07] Starting portfolio project in [[id:164687e7-81b1-4b1a-97c5-7ac2e9895357][Dotnet]]
+- creating a new web api app
+- adding entity framework to project
+- adding swagger package name is NSwag.AspNetCore
+  - OpenAPI specification
 **** [2025-12-17 Wed 19:10] Learning Python w/ Obed
 **** [2025-12-17 Wed 10:32] Had a meeting earlier with somone from Maryland Comptroller to get my student loan credit for 2024
 **** [2025-12-17 Wed 10:32] Working on practice exam problems for AWS Cert and taking notes on topics

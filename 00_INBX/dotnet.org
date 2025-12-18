@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       164687e7-81b1-4b1a-97c5-7ac2e9895357
+:END:
+#+title: dotnet
+
+* csharp
+- model - is a set of classes that represent the data the app manages
+  - ~Models~ folder is convention location for model classes
+- database context - main class that coordinates Entity Framework functionality for a data model
