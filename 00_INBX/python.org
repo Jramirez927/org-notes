@@ -1,0 +1,130 @@
+:PROPERTIES:
+:ID:       6f4d2291-627c-40b6-a328-a52be2260a31
+:END:
+#+title: Python
+
+* TODO Learning Python Basics https://github.com/Asabeneh/30-Days-Of-Python/tree/master
+* 30 Days of Python
+** Day 1
+*** Operators
+**** Arithmatic Operators
+#+BEGIN_SRC python :results output
+
+print(1 + 1) # addition
+print(1 - 1) # subtraction
+print(3 * 4) # multiplication
+print(12 / 3) # division
+print( 2 ** 4 ) # the same as 2^4 exponents
+
+# if you divide 11 / 3 you get 3.66666666666
+# but sometimes you dont want the trailing number
+# so you do floor division this goes to 3
+print( 11 // 3 ) # floor division
+
+# modulous operation is the remainder operation (gives remainer)
+print( 22 % 3) # modulous
+
+
+#+END_SRC
+
+#+RESULTS:
+: 2
+: 0
+: 12
+: 4.0
+: 16
+: 3
+: 1
+
+**** Comparison Operators
+
+#+BEGIN_SRC python :results output
+# Comparison operators
+
+x = True
+y = False
+# sidenote look up ASCII table for character values
+
+print("x = ", x , ", y = ", y)
+print("== ",x == y) # equals operator
+print("!= ", x != y ) # not equals operator
+print("> ", x > y) # greater than operator
+print("< ", x < y) # less than operator
+print(">= ", x >= y) # greater than or equal to operator
+print("<= ", x <= y) # less than or equal to operator
+
+
+
+#+END_SRC
+
+#+RESULTS:
+: x =  True , y =  False
+: ==  False
+: !=  True
+: >  True
+: <  False
+: >=  True
+: <=  False
+
+**** Logical Operators
+
+#+BEGIN_SRC python :results output
+
+
+
+# AND
+print("| X | Y | X AND Y")
+print("| F | F | ", False and False, )
+print("| F | T | ", False and True, )
+print("| T | F | ", True and False, )
+print("| T | T | ", True and True, )
+# OR
+print("| X | Y | X OR Y")
+print("| F | F | ", False or False, )
+print("| F | T | ", False or True, )
+print("| T | F | ", True or False, )
+print("| T | T | ", True or True, )
+
+# NOT
+print(not ( (1 < 3) and (0 > -1)))
+
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+| X | Y | X AND Y
+| F | F |  False
+| F | T |  False
+| T | F |  False
+| T | T |  True
+| X | Y | X OR Y
+| F | F |  False
+| F | T |  True
+| T | F |  True
+| T | T |  True
+False
+#+end_example
+
+*** Data Types
+
+#+BEGIN_SRC python :results output
+
+# type() <- tells you what python type the parameter is
+print(type(1)) #int
+print(type(1.1)) #float
+print(type("qpwiupfjap")) # string
+print(type([])) # list
+print(type({'a','b','c'})) # set
+print(type((1,3,"4"))) # tuple
+print(type(3 == 3))  # bool
+
+#+END_SRC
+
+#+RESULTS:
+: <class 'int'>
+: <class 'float'>
+: <class 'str'>
+: <class 'list'>
+: <class 'set'>
+: <class 'tuple'>
+: <class 'bool'>
