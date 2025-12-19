@@ -4,6 +4,44 @@
 #+title: dotnet
 
 * csharp
-- model - is a set of classes that represent the data the app manages
+- attribute ~[ApiConroller]~
+- ~nameof~ operator in csharp
+- ~CreateAtAction~ method
+- ~Route~
+#+BEGIN_SRC csharp
+// replace [controller] with name of controller TodoItems for TodoItemsController
+[Route("api/[controller]")] //routing is case insensitive
+[ApiController]
+public class TodoItemsController : ControllerBase
+#+END_SRC
+** Attribute routing with Http[Verb] attributes
+** Attribute routing with placeholder variable
+#+BEGIN_SRC csharp
+[HttpGet("{id}")]
+public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
+    {
+      //value of id in url is provided as a parameter
+    }
+#+END_SRC
+** Data Transfer Object (DTO) / Input Model / View Model
+- prevent over-posting by using subset of model and excluding parameters you want kept secret
+-
+* Entity Framework Core
+** Model
   - ~Models~ folder is convention location for model classes
-- database context - main class that coordinates Entity Framework functionality for a data model
+- set of classes to represent the data the app manages
+** Database Context
+- main class to coordinate EF Core functionality for the data model
+- In order to use Database Context it must be registered with the [[id:2eb8c3f5-0ac3-460f-8745-556112ea1b1f][dependency injection]]container
+*** what is an in memory database context?
+
+* Demo Project Notes
+** Scaffolding a controller
+- installed ~dotnet-aspnet-codegenerator~
+#+BEGIN_SRC shell
+echo 'export PATH=$HOME/.dotnet/tools:$PATH' >> ~/.bashrc
+source ~/.bashrc(your code here)
+#+END_SRC
+#+BEGIN_SRC shell
+dotnet aspnet-codegenerator controller -name TodoItemsController -async -api -m TodoItem -dc TodoContext -outDir Controllers
+#+END_SRC

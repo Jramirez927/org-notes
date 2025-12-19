@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2eb8c3f5-0ac3-460f-8745-556112ea1b1f
+:END:
+#+title: dependency injection
+
+* TODO Fill out properties for dependency injection (DI) file

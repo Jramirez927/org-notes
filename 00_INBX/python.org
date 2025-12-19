@@ -129,7 +129,7 @@ print(type(3 == 3))  # bool
 : <class 'tuple'>
 : <class 'bool'>
 
-** Python Problem
+*** Python Problem
 You’re writing a small program to determine whether a student is allowed into a neuroscience research lab.
 
 A student may enter the lab only if ALL of the following are true:
@@ -139,19 +139,35 @@ A student may enter the lab only if ALL of the following are true:
 - The current time is between 8 AM and 8 PM (inclusive)
 
 #+BEGIN_SRC python :results output
-age = 19
+age = 20
 completed_training = True
 on_probation = False
-current_hour = 14   # 24-hour format (0–23)k
+curr_hour = 10
 
-def is_allowd_lab():
-    if(True): # fill out condition here
-        print("Is allowed!")
+def foo():
+    if(age >= 18 and completed_training and (not on_probation) and (curr_hour > 8 and curr_hour < 20)):
+        print("Allowed")
     else:
-        print("Is NOT allowed!")
+        print("Not Allowed")
 
-is_allowd_lab()
+foo()
 #+END_SRC
 
 #+RESULTS:
-: Is allowed!
+: Allowed
+** Day 2
+*** Built in functions
+*** Variables
+** Day 3
+*** Exercise
+#+BEGIN_SRC python :results output
+height = 30
+width = 10
+area = height * width
+
+print("Area", area)
+
+#+END_SRC
+
+#+RESULTS:
+: Area 300
