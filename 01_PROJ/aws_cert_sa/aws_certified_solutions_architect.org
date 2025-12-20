@@ -9,7 +9,7 @@
 DEADLINE: <2025-12-16 Tue>
 ** TODO Notes on https://www.youtube.com/watch?v=c3Cn4xYfxJY
 ** TODO Exam Practice https://app.exampro.co/student/journey/saa-c03
-
+** TODO Exam Practice Site https://trustedinstitute.com/practice/aws-solution-architect/
 * What is the Solutions Architect Associate?
 - concept-based AWS certification teaching:
   - broadcast amount of core AWS services
@@ -42,6 +42,8 @@ DEADLINE: <2025-12-16 Tue>
 - Edge Cache
 - Regional Cache
 - Origin
+** Mitigating Layer 7 HTTP flood
+- you can rate limit with Lambda@Edge
 * Elastic IP
 - Disassociate Elastic IP only detaches it from resource but keeps it allocated for your account
 - Releasing Elastic IP returns it to Amazons pool of IPv4 addresses potentially getting assigned to another AWS customer
@@ -71,6 +73,8 @@ DEADLINE: <2025-12-16 Tue>
 - Client Certificates
 - Custom Domain Names
 - need public ips to allow access to internet
+** Tools to improve latency on API Gateway
+- cache capacity
 * S3
 - labels
 - lifecycle transitions
@@ -84,17 +88,29 @@ DEADLINE: <2025-12-16 Tue>
 ** S3 Select
 - when using CSV/JSON or Parquet for S3 I think you can get a subset of data with this service
 * EC2
+- what is a spot fleet?
 - What are AMIs?
 - How to use AMIs to quickly make EC2 instances available accross regions?
 * Amazon RDS
 - what is a parameter group?
-* IAM
-- roles
+* Identity Access Management (IAM)
 - instance profile
 - trust policy?
 - permissions policy attached to role
 - cross-account assumption flow
 - EC2 service principal (ec2.amazonaws.com)
+** What is it?
+- core security service that helps control access to AWS resources securely
+** Identities
+*** Roles
+*** Groups
+*** Users
+** Policies
+*** Condition element
+*** Identity-based policy
+** Resources
+*** Organizations SCP
+
 * EBS
 - max single volume 16TiB
 * Load Balancer
@@ -102,6 +118,11 @@ DEADLINE: <2025-12-16 Tue>
 - Application load balancer
 - Network Load Balancer
 - Classic Load Balance
+** Distributing Request Stratagies
+- Round Robin
+- Lowest Latency Based Routing
+- Source IP hash distribution
+- Least outstanding request
 * Route 53
 - how to ensure clients stop using old value of a DNS record after changing it?
 - aliases
@@ -113,3 +134,14 @@ DEADLINE: <2025-12-16 Tue>
 - max size for an SQS message?
 * Amazon Redshift
 - Amazon Redshift Workload Management (WLM) what is it?
+* Amazon Elastic Container Service (ECS)\
+** Placement Stratagies
+- spread
+- pinback
+- random
+- highest available
+* AWS CloudTrail
+- records detailed authoratiative history of API activity accross an account
+* AWS KMS
+- symmetric customer managed KMS key (CMK)
+** Automatic key rotation
