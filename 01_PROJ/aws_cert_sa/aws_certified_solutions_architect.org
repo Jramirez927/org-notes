@@ -32,8 +32,14 @@ DEADLINE: <2025-12-16 Tue>
 - cert valid for 3 years
 
 * CloudWatch
-- metrics
 - What are namespaces in cloudwatch?
+** Metrics
+** Alarms
+** Triggers
+** Target Tracking Scaling
+** Step Scaling
+** Manual Scaling
+** Simple Scaling
 * Auto Scaling Groups
 * Instance Metadata Service
 - provides instances with metatdata, such as instance type, region, security group, and this can be accessed from within the instance without need for AWS credentials
@@ -94,6 +100,7 @@ DEADLINE: <2025-12-16 Tue>
 * Amazon RDS
 - what is a parameter group?
 * Identity Access Management (IAM)
+- What prereq enables account discovery and managment?
 - instance profile
 - trust policy?
 - permissions policy attached to role
@@ -101,6 +108,9 @@ DEADLINE: <2025-12-16 Tue>
 - EC2 service principal (ec2.amazonaws.com)
 ** What is it?
 - core security service that helps control access to AWS resources securely
+** AWS Organizaitons
+- a way to group accounts and resources under a centrally managed enviroments like an AWS org
+** AWS SSO
 ** Identities
 *** Roles
 *** Groups
@@ -110,9 +120,15 @@ DEADLINE: <2025-12-16 Tue>
 *** Identity-based policy
 ** Resources
 *** Organizations SCP
+** SAML Federation
 
-* EBS
+* Amazon EBS
 - max single volume 16TiB
+** EBS-backed instance uses EBS volume as the root device
+- persistent block of storage
+- support point in-time snapshots
+- retains data across instance start/stop events
+-
 * Load Balancer
 - Elastic Load Balancer Sicky Sessions
 - Application load balancer
@@ -132,6 +148,8 @@ DEADLINE: <2025-12-16 Tue>
 - what is TTL?
 * Amazon SQS
 - max size for an SQS message?
+** FIFO messaging
+- MessageGroupId
 * Amazon Redshift
 - Amazon Redshift Workload Management (WLM) what is it?
 * Amazon Elastic Container Service (ECS)\

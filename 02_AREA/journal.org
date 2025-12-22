@@ -95,3 +95,6 @@ learning to navigate emacs with it
 **** [2025-12-17 Wed 19:10] Learning Python w/ Obed
 **** [2025-12-17 Wed 10:32] Had a meeting earlier with somone from Maryland Comptroller to get my student loan credit for 2024
 **** [2025-12-17 Wed 10:32] Working on practice exam problems for AWS Cert and taking notes on topics
+*** 2025-12-22 Monday
+**** [2025-12-22 Mon 14:20] called about Bongnwi car being towed and it got towed Nov 22nd but got marked for being towed Nov 19
+- call number 240 280 7285
