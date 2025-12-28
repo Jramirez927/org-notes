@@ -4,6 +4,10 @@
 #+title: Python
 
 * TODO Learning Python Basics https://github.com/Asabeneh/30-Days-Of-Python/tree/master
+:LOGBOOK:
+CLOCK: [2025-12-27 Sat 20:24]--[2025-12-27 Sat 21:44] =>  1:20
+CLOCK: [2025-12-26 Fri 16:30]--[2025-12-26 Fri 17:41] =>  1:11
+:END:
 * 30 Days of Python
 ** Day 1
 *** Operators
@@ -171,3 +175,292 @@ print("Area", area)
 
 #+RESULTS:
 : Area 300
+** Day 4
+*** Creating a string
+#+BEGIN_SRC python :results output
+letter = 'P' #creating a string with single quotes
+print(letter)
+print(len(letter))
+
+greeting = 'Hello, World!'
+print(greeting)
+print(len(greeting))
+
+sentence = "I hope you are enjoying 30 days of Python!"
+print(sentence)
+#+END_SRC
+
+#+RESULTS:
+: P
+: 1
+: Hello, World!
+: 13
+: I hope you are enjoying 30 days of Python!
+
+#+BEGIN_SRC python :results output
+multiline_string =''' I am a teacher and enjoy teaching
+That is why i created 30 Days
+of python
+'''
+
+print(multiline_string)
+
+#+END_SRC
+
+#+RESULTS:
+:  I am a teacher and enjoy teaching
+: That is why i created 30 Days
+: of python
+:
+*** String Concatination
+#+BEGIN_SRC python :results output
+first_name = 'Jorge'
+last_name = 'Ramirez'
+space = ' '
+
+full_name = first_name + space + last_name
+
+print(full_name)
+
+print(len(first_name)) # 5
+print(len(last_name)) # 7
+
+print(len(first_name) > len(last_name)) # false
+
+print(len(full_name)) # 13
+#+END_SRC
+
+#+RESULTS:
+: Jorge Ramirez
+: 5
+: 7
+: False
+: 13
+*** Escape Sequences in Strings
+#+BEGIN_SRC python :results output
+print('I hope everyone is enjoying the Python Challenge.\n Are you?')
+
+print('Days\tTopics\tExercisis')
+print('Day 1\t5\t20')
+print('Day 2\t15\t20')
+print('Day 3\t53\t202')
+print('Day 4\t54\t220')
+
+print("Make the \"string\"")
+
+
+#+END_SRC
+
+#+RESULTS:
+: I hope everyone is enjoying the Python Challenge.
+:  Are you?
+: Days	Topics	Exercisis
+: Day 1	5	20
+: Day 2	15	20
+: Day 3	53	202
+: Day 4	54	220
+: Make the "string"
+*** String Formatting
+#+BEGIN_SRC python :results output
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of circle with a radius %d is %.1f.' %(radius, area)
+print(formated_string)
+#+END_SRC
+
+#+RESULTS:
+: The area of circle with a radius 10 is 314.0.
+** Day 5
+*** Creating Lists
+#+BEGIN_SRC python :results output
+#syntax
+empty_list = list()
+print(len(empty_list))
+print(empty_list)
+#+END_SRC
+
+#+RESULTS:
+: 0
+: []
+
+#+BEGIN_SRC python :results output
+empty_list = []
+print(len(empty_list))
+print(empty_list)
+#+END_SRC
+
+#+RESULTS:
+: 0
+: []
+
+*** Finding Length of list
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print('Fruits:', fruits )
+print('Number of fruits:', len(fruits))
+lst = []
+#+END_SRC
+
+#+RESULTS:
+: Fruits: ['banana', 'orange', 'mango', 'lemon']
+: Number of fruits: 4
+
+*** Accessing Lists Items
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[0]
+print(first_fruit)
+second_fruit = fruits[1]
+print(second_fruit)
+third_fruit = fruits[2]
+print(third_fruit)
+
+last_index = len(fruits) - 1
+last_fruit = fruits[last_index]
+print(last_fruit)
+#+END_SRC
+
+#+RESULTS:
+: banana
+: orange
+: mango
+: lemon
+
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[-4]
+print(first_fruit)
+last_fruit = fruits[-1]
+print(last_fruit)
+#+END_SRC
+
+#+RESULTS:
+: banana
+: lemon
+
+*** Unpacking Lists
+*** Slicing Items from a List
+
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+all_fruits = fruits[0:4] # it returns all the fruits
+print(all_fruits)
+all_fruits_no_end_val = fruits[0:] # dont need to include end value to get rest
+print(all_fruits_no_end_val)
+
+orange_and_mango = fruits[1:3]
+print(orange_and_mango)
+step_list = fruits[::2] # this is a step argument prints out every 2
+print(step_list)
+
+print(fruits[::-1])
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['banana', 'orange', 'mango', 'lemon']
+: ['orange', 'mango']
+: ['banana', 'mango']
+: ['lemon', 'mango', 'orange', 'banana']
+
+*** Modifying Lists
+#+BEGIN_SRC python :results output
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits)
+fruits[0] = 'cherry'
+print(fruits)
+last_index = len(fruits) - 1
+fruits[last_index] = 'lime'
+print(fruits)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['cherry', 'orange', 'mango', 'lemon']
+: ['cherry', 'orange', 'mango', 'lime']
+
+*** Checking Items in a List
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+does_exist = 'banana' in fruits
+print(does_exist)  # True
+does_exist = 'lime' in fruits
+print(does_exist)  # False
+#+END_SRC
+
+#+RESULTS:
+: True
+: False
+
+*** Adding Items to a List
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits)
+fruits.append('apple')
+print(fruits)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['banana', 'orange', 'mango', 'lemon', 'apple']
+
+*** Inserting Items to a List
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits)
+fruits.insert(1,'apple')
+print(fruits)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['banana', 'apple', 'orange', 'mango', 'lemon']
+
+*** Removing Items from A List
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits)
+fruits.remove('orange')
+print(fruits)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['banana', 'mango', 'lemon']
+
+*** Removing Items Using Pop
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.pop(0)
+print(fruits)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon']
+: ['banana', 'orange', 'mango']
+: ['orange', 'mango']
+
+*** Removing Items Using Del
+- can remove a range of items by ~del fruits[1:3]~
+*** Clearing List Items
+*** Copying a List
+*** Joining Lists
+#+BEGIN_SRC python :results output
+fruits = ['banana', 'orange', 'mango', 'lemon']
+veggies = ['carrot', 'onion', 'potato']
+fruits_and_veggies = fruits + veggies
+print(fruits_and_veggies)
+#+END_SRC
+
+#+RESULTS:
+: ['banana', 'orange', 'mango', 'lemon', 'carrot', 'onion', 'potato']
+
+*** Counting Items in a List
+*** Finding Index of an Item
+*** Reversing a List
+*** Sorting List Items
