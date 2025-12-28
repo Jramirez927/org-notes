@@ -34,9 +34,8 @@
 - [X] [[https://www.tiktok.com/@dianabishara_/video/7242382039327018246?q=dinner%20ideas&t=1763611952497][Roasted Garlic and Parmesan Chicken]]
   - [X] also create a recipe based on this video n
 **** Resource to learn math online [[https://www.ixl.com/math][ixl.com]]
-**** [[id:dda463fb-33dc-4672-9c02-c23a47b699f5][Creamy Chicken and Chorizo]]
 some text
-**** [[id:3945cba7-b90d-4145-be59-5ff18d2c60ea][Roasted Garlic and Parmesan Chicken]]
+**** [[id:34c6c8ea-0d52-40e4-8456-1ef6e83347a6][Creamy Chicken and Chorizo]]
 some other text
 *** 2025-11-24 Monday
 **** [2025-11-24 Mon 19:48] Finished Making [[file:recipe.org::*Creamy*][Creamy Chicken & Chorizo]]
