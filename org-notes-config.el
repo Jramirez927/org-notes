@@ -21,8 +21,6 @@
 
 
 
-(provide 'org-notes-config)
-;;; org-notes-config.el -*- lexical-binding: t; -*-
 
 ;; Optional: derive org-directory from this project root.
 ;; If you already set org-directory in $DOOMDIR/config.el, you can skip this.
@@ -74,4 +72,6 @@
            (file+olp+datetree "02_AREA/food_log.org")
            "* %U %?\n" :prepend t))))
 
+(provide 'org-notes-config)
+;;; org-notes-config.el -*- lexical-binding: t; -*-
 ;;; org-notes-config.el ends here
