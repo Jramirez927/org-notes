@@ -35,12 +35,12 @@
 (defun export-calendars-my-export ()
   (let ((org-icalendar-use-scheduled '(todo-start event-if-todo))
         (org-icalendar-use-deadline nil)
-        (org-icalendar-combined-agenda-file  "~/calendars/scheduled.ics"))
+        (org-icalendar-combined-agenda-file  "calendars/scheduled.ics"))
     (org-icalendar-combine-agenda-files))
 
   (let ((org-icalendar-use-deadline '(event-if-todo event-if-not-todo))
         (org-icalendar-use-scheduled nil)
-        (org-icalendar-combined-agenda-file  "~/calendars/deadline.ics"))
+        (org-icalendar-combined-agenda-file  "calendars/deadline.ics"))
     (org-icalendar-combine-agenda-files)))
 
 (export-calendars-my-export)

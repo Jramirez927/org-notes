@@ -1,0 +1,8 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - mkdir calendars
+      - echo "Executing calendar export script..."
+      - emacs --batch -Q -l export-calendars.el
