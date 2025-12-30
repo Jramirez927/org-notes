@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-    - "apt update"
-    - "apt install emacs"
+    - "apt-get update"
+    - "apt-get install -y emacs-nox"
   build:
     commands:
       - mkdir calendars
