@@ -1,8 +1,15 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+    - "sudo apt update"
+    - "sudo apt install emacs-nox"
   build:
     commands:
       - mkdir calendars
       - echo "Executing calendar export script..."
       - emacs --batch -Q -l export-calendars.el
+  artifacts:
+    files:
+      - "calendars/*"
