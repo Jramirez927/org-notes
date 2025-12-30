@@ -23,7 +23,7 @@
 (require 'org)
 (require 'ox-icalendar)
 
-(setq org-directory "~/org-notes")
+(setq org-directory ".")
 
 ;; Org agenda over all org files in this project
 (setq org-agenda-files
