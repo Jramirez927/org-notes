@@ -10,6 +10,6 @@ phases:
       - mkdir calendars
       - echo "Executing calendar export script..."
       - emacs --batch -Q -l export-calendars.el
-  artifacts:
-    files:
-      - "calendars/*"
+artifacts:
+  files:
+    - "calendars/*"
