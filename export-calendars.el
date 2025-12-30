@@ -28,6 +28,8 @@
 ;; Org agenda over all org files in this project
 (setq org-agenda-files
       (directory-files-recursively org-directory "\\.org$"))
+      
+(setq org-export-with-broken-links t)
 
 (setq org-icalendar-scheduled-summary-prefix "")
 (setq org-icalendar-deadline-summary-prefix "")
