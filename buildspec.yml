@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-    - "sudo apt update"
-    - "sudo apt install emacs"
+    - "apt update"
+    - "apt install emacs"
   build:
     commands:
       - mkdir calendars
