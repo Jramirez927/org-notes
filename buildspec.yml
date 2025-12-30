@@ -5,6 +5,7 @@ phases:
     commands:
     - "apt-get update"
     - "apt-get install -y emacs-nox"
+    - "emacs --version"
   build:
     commands:
       - mkdir calendars
