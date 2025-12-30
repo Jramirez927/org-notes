@@ -21,6 +21,8 @@
 ;;; Code:
 ;;;
 (require 'org)
+(require 'org-agenda)
+(require 'org-id)
 (require 'ox-icalendar)
 
 (setq org-directory ".")
@@ -28,13 +30,14 @@
 ;; Org agenda over all org files in this project
 (setq org-agenda-files
       (directory-files-recursively org-directory "\\.org$"))
-      
+
 (setq org-export-with-broken-links t)
 
 (setq org-icalendar-scheduled-summary-prefix "")
 (setq org-icalendar-deadline-summary-prefix "")
 
 (defun export-calendars-my-export ()
+  (make-directory "calendars" t) 
   (let ((org-icalendar-use-scheduled '(todo-start event-if-todo))
         (org-icalendar-use-deadline nil)
         (org-icalendar-combined-agenda-file  "calendars/scheduled.ics"))

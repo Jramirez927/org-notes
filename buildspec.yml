@@ -8,7 +8,6 @@ phases:
     - "emacs --version"
   build:
     commands:
-      - mkdir calendars
       - echo "Executing calendar export script..."
       - emacs --batch -Q -l export-calendars.el
 artifacts:
