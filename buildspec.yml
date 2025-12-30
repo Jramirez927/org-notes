@@ -4,7 +4,7 @@ phases:
   install:
     commands:
     - "sudo apt update"
-    - "sudo apt install emacs-nox"
+    - "sudo apt install emacs"
   build:
     commands:
       - mkdir calendars
