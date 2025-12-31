@@ -4,6 +4,7 @@
 #+title: Python
 
 * TODO Learning Python Basics https://github.com/Asabeneh/30-Days-Of-Python/tree/master
+DEADLINE: <2026-01-31 Sat>
 :LOGBOOK:
 CLOCK: [2025-12-27 Sat 20:24]--[2025-12-27 Sat 21:44] =>  1:20
 CLOCK: [2025-12-26 Fri 16:30]--[2025-12-26 Fri 17:41] =>  1:11
