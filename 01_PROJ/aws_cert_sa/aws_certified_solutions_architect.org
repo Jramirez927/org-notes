@@ -8,6 +8,7 @@
 ** TODO this is a goal of mine im looking to get certified as a AWS Solutions Architect Associate by the end of the year
 SCHEDULED: <2026-01-02 Fri 15:00-16:00> DEADLINE: <2026-01-05 Mon>
 ** TODO Notes on https://www.youtube.com/watch?v=c3Cn4xYfxJY
+SCHEDULED: <2026-01-06 Tue>
 ** TODO Exam Practice https://app.exampro.co/student/journey/saa-c03
 ** TODO Exam Practice Site https://trustedinstitute.com/practice/aws-solution-architect/
 * What is the Solutions Architect Associate?
