@@ -164,7 +164,7 @@ Add some [5 ingredient beer bread](https://www.halfbakedharvest.com/5-ingredient
 
 
 * White Chicken Chili
-** Ingredients:
+** Ingredients
 - Chicken Thighs- 3lbs
 - Salt- 1tbsp
 - Pepper- 1tbsp
@@ -188,7 +188,7 @@ Add some [5 ingredient beer bread](https://www.halfbakedharvest.com/5-ingredient
 - Great Northern White Beans-2 15oz cans (1 can
 blended, 1 whole)
 - Black Beans- 8oz
-** Instructions:
+** Instructions
 *** Make your seasoning blend and marinate the
 chicken thighs with only half of it.
 *** Chop an onion, bell pepper, celery, and garlic and
@@ -239,10 +239,78 @@ the perfect finish.
 *** form bread to a ball add parchment and place in dutch oven
 - bake for about 30 mins
 - take out and oncover and bake for another 10 mins to brown
-** review
-- the bread was still too sticky like 420g was not enough bread flower for 1.5 cups of water
-- I tried 480g of flour this time and it might have been too much for the amount of water. I need to measure the water next time in ml
-- add the butter right before kneading
+* Sandwich Bread
+** Ingredients
+*** Yeast mixture
+- 3/4 cup warm water (between 100 and 110 degrees F)
+- 2 tsp active dry yeast
+- 1 tbsp sugar or honey
+*** Bread Dough
+- 3 cups all purpose flour
+- 1 tsp salt
+- 2 tbsp olive oil
+- 1 egg
+** Instructions
+- 350 for 30 minutes
+
+
+* Focaccia Bread
+** Ingredients
+- 500g (4 cups) white bread flour (12% protein content or higher)
+- 390-420ml (1 3/4 cups) warm water
+- 15ml (1 Tablespoon) extra virgin olive oil
+- 6g (1.5 teaspoons) instant yeast
+- 5g (1 teaspoon) honey, sugar or agave
+- 10g (2 teaspoons) fine sea salt
+- Extra virgin olive oil to line pan and drizzle
+- Flaky sea salt to finish
+- Toppings of choice (rosemary, olives, peppers, onions, jalapeños, cheese etc)
+** Instructions
+1. Make yeast mixture
+   1. 390-420ml (1 3/4 cups) warm water (start with 390ml and see if you need more)
+   2. 6g (1.5 teaspoons) instant yeast
+   3. 5g (1 teaspoon) honey, sugar or agave
+   4. 15ml (1 Tablespoon) extra virgin olive oil
+2. Add 500g (4 cups) white bread flour (12% protein content or higher)
+3. 10g (2 teaspoons) fine sea salt
+4. Mix dough until well incorporated
+5. Cover for 15 then strech and fold 2x
+6. Let it rest for 1hr-1.5hr
+7. Extra virgin olive oil to line pan and drizzle over parchment
+8. Drop dough into pan try and fill the pan with the dough cover with parchment
+9. let the dough rest for another 1hr-1.5hr
+* Greek Yogurt Potatoes and Yogurt Dipping Sauce
+** Ingredients
+*** Yogurt Potatoes
+2 lbs mini Yukon gold potatoes
+2 tbsp olive oil
+1/2 cup plain Greek yogurt
+2 tsp Shawarma seasoning
+2 tsp vegeta
+2 tbsp minced garlic
+3 tbsp grated Parmesan
+
+Garnishes:
+Balsamic glaze
+Grated Parmesan cheese
+Fresh chopped rosemary and thyme
+
+*** Yogurt horseradish dipping sauce
+
+3/4 cup plain Greek yogurt
+2 tbsp prepared, horseradish
+1 tbsp olive oil
+2 tbsp capers with juice
+1 tbsp fresh chopped rosemary, and thyme
+1 tbsp hot sauce
+1 tsp Shawarma seasoning
+Salt and pepper to Taste.
+Whisk ingredients together to combine. Store in the fridge for up to two weeks.
+
+** Instructions
+1. Wash and Pat dry Yukon gold potatoes, then add to a large mixing bowl along with olive oil and Greek yogurt . Toss till potatoes are well coated.
+2. Season with Shawarma seasoning and Vegeta then add garlic and Parmesan cheese and toss again.
+3. Add the yogurt, potatoes to an air fryer and spread out evenly into one layer. Top with a little bit more Shawarma seasoning and Parmesan cheese then air fry for 25 minutes at 375° until the potatoes are fully cooked.
 
 
 * Texas Roadhouse Rolls
@@ -297,10 +365,7 @@ the perfect finish.
 
 
 * Chicken & Red Pepper Pesto Sandwich
-Serves 2 + left over pesto.
-
 ** Ingredients
-
 *** Crispy Chicken & Assembly:
 - [ ] 3-4 boneless skin-on chicken thighs
 - [ ] Dried basil
@@ -384,11 +449,6 @@ Serves 2 + left over pesto.
 
 
 * Creamy Cocunut Lime Chicken
-Prep Time: 10 minutes minutes
-Cook Time: 20 minutes minutes
-Total Time: 30 minutes minutes
-Servings: 4
-Calories: 502kcal
 ** Ingredients
 - [ ] 1 shallot, diced
 - [ ] 4 cloves garlic, minced
@@ -412,6 +472,7 @@ Calories: 502kcal
 7. Add chicken broth, coconut milk, lime juice, ginger and cilantro to the pan. Stir to mix, scraping up any browned bits remaining in the pan from when you cooked your chicken.
 8. Add the chicken breasts back to the skillet with the sauce. Cover and turn heat down to low. Simmer for 5 minutes, or until the chicken is fully cooked.
 9. Serve with vegetables, potatoes, rice or cauli rice. Spoon some sauce over everything for serving. Sprinkle with cilantro and garnish with lime slices (optional).
+
 
 * Asian Vinegrette
 ** Ingredients
