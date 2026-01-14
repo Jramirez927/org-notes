@@ -103,3 +103,21 @@ learning to navigate emacs with it
 ** 2026-01 January
 *** 2026-01-01 Thursday
 **** [2026-01-01 Thu 19:19] Watching the Beast in Me
+*** 2026-01-13 Tuesday
+**** [2026-01-13 Tue 22:31] Plan for tomorrow
+- what are the things that are comming up tomorrow?
+  - I am having an interview tomorrow for a job.
+    - should I prep for the interview?
+  - I need to help my dad re-register the car
+    - take the vehicle to inspection at the exon
+    - then take the vehicle to the MVA
+  - I need to do my job applications the issue is that ill be out most of the day if I end up at the mva
+    - pack my bag with essentials
+**** [2026-01-13 Tue 22:26] Reflection: today felt like a long productive day
+I accomplished a lot.
+- gym
+- replied to text
+- cooked food, cleaned, laundry (still need to fold clothes)
+- did some research for nyc trip
+- installed ubuntu and did setup on Shegz computer
+- listened to audio book while dropping off Adiam
